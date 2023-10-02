@@ -9,7 +9,7 @@ export const Main = () => {
         <div className="text-4xl text-white md:text-5xl">
           I&apos;m <span className="text-greeny">Dinis Silva</span>
         </div>
-        <div className="text-[#8A8A8D] leading-6 md:text-xl">
+        <div className="text-graywhite leading-6 md:text-xl">
           A <span className="text-white">software engineer</span> specialized in{" "}
           <span className="text-white">full-stack web development</span> with a
           huge passion to create apps{" "}

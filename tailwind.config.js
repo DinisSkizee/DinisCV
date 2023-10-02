@@ -6,6 +6,8 @@ export default {
       colors: {
         greeny: "#06D6A0",
         bgblue: "#15141b",
+        graywhite: "#8A8A8D",
+        gold: "#FFD166",
       },
     },
   },

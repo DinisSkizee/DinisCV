@@ -1,13 +1,22 @@
-import { FirstPage } from "./pages/FirstPage";
+import { Footer } from "./components/Footer";
+import { Header } from "./components/Header";
+import { LeftSider } from "./components/LeftSider";
+import { RightSider } from "./components/RightSider";
+import { AboutMe } from "./pages/AboutMe";
+import { MainPage } from "./pages/MainPage";
 
 const App = () => {
   return (
     <>
+      <Header />
+      <LeftSider />
+      <RightSider />
       {/* FIRST PAGE */}
-      <FirstPage />
+      <MainPage />
 
       {/* SECOND PAGE */}
-      <div className="bg-bgblue h-screen"></div>
+      <AboutMe />
+      <Footer />
     </>
   );
 };
