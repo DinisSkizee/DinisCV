@@ -1,6 +1,6 @@
 export const Main = () => {
   return (
-    <div className="px-5 relative top-[50%] -translate-y-[50%] md:px-8 lg:px-[15%]">
+    <div className="px-5 relative top-[50%] -translate-y-[50%] md:px-8 lg:px-[15%] xl:px-[20%]">
       <div className="flex flex-col gap-4">
         <div className="flex gap-2">
           <div className="w-8 border-t-[1px] relative top-[12px] border-greeny" />

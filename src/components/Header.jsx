@@ -1,4 +1,11 @@
 export const Header = () => {
+  const scrollToBlog = () => {
+    const blogSection = document.getElementById("blog");
+    const rect = blogSection.getBoundingClientRect();
+    const scrollTop = window.scrollY || document.documentElement.scrollTop;
+    const offsetTop = rect.top + scrollTop - 200;
+    window.scrollTo({ top: offsetTop, behavior: "smooth" });
+  };
   return (
     <div className="flex w-full justify-between px-5 py-9 fixed bg-bgblue z-40 lg:px-12 items-center">
       <div className="flex justify-start pl-4 text-white gap-2 leading-tight md:text-xl items-center">
@@ -10,11 +17,13 @@ export const Header = () => {
         <span className="font-extrabold">{`</>`}</span>
       </div>
       <div className="lg:justify-center gap-4 hidden lg:flex lg:text-lg lg:text-white">
-        <div>.about()</div>
-        <div>.resume()</div>
-        <div>.projects()</div>
-        <div>.contact()</div>
-        <div>.blog()</div>
+        <div className="hover:text-greeny" onClick={scrollToBlog}>
+          .about()
+        </div>
+        <div className="hover:text-greeny">.resume()</div>
+        <div className="hover:text-greeny">.projects()</div>
+        <div className="hover:text-greeny">.contact()</div>
+        <div className="hover:text-greeny">.blog()</div>
       </div>
       <div className="flex cursor-pointer items-center">
         <svg
