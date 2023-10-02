@@ -201,7 +201,7 @@ export const AboutMe = () => {
           Right after that I quickly got involved in a Tech4Good charity
           project, where I had the opportunity to step up and{" "}
           <span className="text-greeny">
-            lead the dev team together an experienced designer,
+            lead the dev team together with an experienced designer,
           </span>{" "}
           hosted knowledge sharing sessions online and in-person for the team,
           ran client meetings and did the presentations. Got recognition from
