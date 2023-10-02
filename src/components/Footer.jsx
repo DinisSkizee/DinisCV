@@ -8,16 +8,16 @@ export const Footer = () => {
     <div className="lg:hidden flex fixed bottom-0 w-full justify-between p-4 bg-bgblue">
       <div className="text-white md:text-xl">Get In touch:</div>
       <div className="flex gap-4 justify-end">
-        <a href="https://www.linkedin.com/in/dinissilvase/">
+        <a href="https://www.linkedin.com/in/dinissilvase/" target="blank">
           <FontAwesomeIcon className="text-white h-5 md:h-7" icon={faGithub} />
         </a>
-        <a href="https://github.com/DinisSkizee/">
+        <a href="https://github.com/DinisSkizee/" target="blank">
           <FontAwesomeIcon
             className="text-white h-5 md:h-7"
             icon={faLinkedin}
           />
         </a>
-        <a>
+        <a href="mailto:dinissilvauk@gmail.com" target="blank">
           <FontAwesomeIcon
             className="text-white h-5 md:h-7"
             icon={faEnvelope}
