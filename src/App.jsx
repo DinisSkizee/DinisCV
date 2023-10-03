@@ -16,6 +16,7 @@ const App = () => {
 
       {/* SECOND PAGE */}
       <AboutMe />
+      <AboutMe />
       <Footer />
     </>
   );
