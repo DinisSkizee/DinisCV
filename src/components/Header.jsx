@@ -2,14 +2,22 @@ export const Header = () => {
   const scrollToBlog = () => {
     const blogSection = document.getElementById("blog");
     const rect = blogSection.getBoundingClientRect();
+    scrollToSpot(rect, -200);
+  };
+  const scrollToResume = () => {
+    const resumeSection = document.getElementById("resume");
+    const rect = resumeSection.getBoundingClientRect();
+    scrollToSpot(rect, 500);
+  };
+  const scrollToSpot = (rect, off) => {
     const scrollTop = window.scrollY || document.documentElement.scrollTop;
-    const offsetTop = rect.top + scrollTop - 200;
+    const offsetTop = rect.top + scrollTop + off;
     window.scrollTo({ top: offsetTop, behavior: "smooth" });
   };
   return (
     <div className="flex w-full justify-between px-5 py-9 fixed bg-bgblue z-40 lg:px-12 items-center">
       <div
-        className="flex justify-start pl-4 text-white gap-2 leading-tight md:text-xl items-center select-none"
+        className="flex justify-start pl-4 text-white gap-2 leading-tight md:text-xl items-center select-none cursor-pointer"
         onClick={() => {
           window.scrollTo({ top: 0, behavior: "smooth" });
         }}
@@ -21,11 +29,13 @@ export const Header = () => {
         </div>
         <span className="font-extrabold">{`</>`}</span>
       </div>
-      <div className="lg:justify-center gap-4 hidden lg:flex lg:text-lg lg:text-white">
+      <div className="lg:justify-center gap-4 hidden lg:flex lg:text-lg lg:text-white select-none cursor-pointer">
         <div className="hover:text-greeny" onClick={scrollToBlog}>
           .about()
         </div>
-        <div className="hover:text-greeny">.resume()</div>
+        <div className="hover:text-greeny" onClick={scrollToResume}>
+          .resume()
+        </div>
         <div className="hover:text-greeny">.projects()</div>
         <div className="hover:text-greeny">.contact()</div>
         <div className="hover:text-greeny">.blog()</div>
@@ -53,7 +63,7 @@ export const Header = () => {
           strokeWidth="1.5"
           stroke="#ffffffff"
           aria-hidden="true"
-          className="absolute h-6 w-6 rotate-90 scale-0 text-foreground transition-all dark:rotate-0 dark:scale-100 md:h-8 md:w-8"
+          className="absolute h-6 w-6 rotate-90 scale-0 text-foreground transition-all dark:rotate-0 dark:scale-100 md:h-8 md:w-8 hover:stroke-greeny"
         >
           <path
             strokeLinecap="round"

@@ -42,10 +42,19 @@ const ScrollDownSvg = styled.div`
 `;
 
 export const ScrollDown = () => {
+  const handleClick = () => {
+    window.scrollTo({
+      top: window.innerHeight + window.innerHeight / 2,
+      behavior: "smooth",
+    });
+  };
   return (
-    <div className="text-white flex w-full justify-center items-center gap-4 mb-[20%] md:mb-[10%] lg:flex-col lg:mb-[5%] xl:mb-8">
+    <div
+      className="text-white flex w-full justify-center items-center gap-4 mb-[20%] md:mb-[10%] lg:flex-col lg:mb-[5%] xl:mb-8 cursor-pointer"
+      onClick={handleClick}
+    >
       <ScrollDownSvg className="border-2 flex items-center w-5 h-12 rounded-full justify-center md:w-5 md:h-12" />
-      <ScrollSpan className="hidden lg:flex">Scroll</ScrollSpan>
+      <ScrollSpan className="hidden lg:flex select-none ">Scroll</ScrollSpan>
     </div>
   );
 };
