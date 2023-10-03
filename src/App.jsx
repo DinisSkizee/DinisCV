@@ -4,6 +4,7 @@ import { LeftSider } from "./components/LeftSider";
 import { RightSider } from "./components/RightSider";
 import { AboutMe } from "./pages/AboutMe";
 import { MainPage } from "./pages/MainPage";
+import Resume from "./pages/Resume";
 
 const App = () => {
   return (
@@ -16,7 +17,9 @@ const App = () => {
 
       {/* SECOND PAGE */}
       <AboutMe />
-      <AboutMe />
+
+      {/* THIRD PAGE */}
+      <Resume />
       <Footer />
     </>
   );
