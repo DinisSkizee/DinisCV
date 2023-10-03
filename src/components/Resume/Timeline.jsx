@@ -7,9 +7,9 @@ const Timeline = () => {
       <h3 className="text-white text-3xl ml-1 pt-12">{`.timeline()`}</h3>
 
       {/* Resume */}
-      <div className="bg-[#101116] mt-[2rem] w-full h-[20rem] grid grid-cols-16 grid-rows-15 p-4">
+      <div className="bg-[#101116] mt-[2rem] w-full h-[20rem] grid grid-cols-16 grid-rows-15 p-4 pb-6">
         {/* ARU */}
-        <Popover className="row-start-1 row-end-3 col-start-1 col-end-7 text-white text-[.7rem]">
+        <Popover className="row-start-1 row-end-3 col-start-1 col-end-7 text-white text-[.7rem] md:text-[.9rem] md:col-end-4 md:leading-5">
           {({ open }) => (
             <>
               <Popover.Button className="focus:outline-none text-left">
@@ -18,7 +18,7 @@ const Timeline = () => {
               <Popover.Panel
                 className={`${
                   open ? "opacity-100" : "opacity-0"
-                } absolute z-10 bg-bgblue p-3 text-xs text-white mt-2 mr-9 shadow-2xl`}
+                } absolute z-10 bg-bgblue p-3 text-xs text-white mt-2 mr-9 shadow-2xl md:text-md md:mr-16`}
               >
                 <div className="flex flex-col gap-1">
                   <h1 className="text-gold">Anglia Ruskin University</h1>
@@ -45,17 +45,17 @@ const Timeline = () => {
         </Popover>
 
         {/* Accenture */}
-        <Popover className="row-start-4 col-start-6 col-end-15 text-white text-[.7rem]">
+        <Popover className="row-start-4 col-start-6 col-end-15 text-white text-[.7rem] md:text-[.9rem] md:row-start-3 md:leading-6 md:col-start-5 md:col-end-17">
           {({ open }) => (
             <>
-              <Popover.Button className="focus:outline-none text-left">
-                Software Engineer
-                <br /> <span className="font-bold">Accenture UK</span>
+              <Popover.Button className="focus:outline-none text-left flex flex-col">
+                <span>Software Engineer</span>
+                <span className="font-bold md:-mt-2">Accenture UK</span>
               </Popover.Button>
               <Popover.Panel
                 className={`${
                   open ? "opacity-100" : "opacity-0"
-                } absolute z-10 bg-bgblue p-3 text-xs text-white mt-2 mr-9 left-9 shadow-2xl`}
+                } absolute z-10 bg-bgblue p-3 text-xs text-white mt-2 mr-9 left-9 shadow-2xl md:text-md md:mr-16 md:ml-6`}
               >
                 <div className="flex flex-col gap-1">
                   <h1>Software Engineer</h1>
@@ -90,16 +90,16 @@ const Timeline = () => {
         </Popover>
 
         {/* Full-Stack Bootcamp */}
-        <Popover className="row-start-7 col-start-6 col-end-10 text-white text-[.7rem]">
+        <Popover className="row-start-7 col-start-6 col-end-10 text-white text-[.7rem] md:text-[.9rem] md:leading-4 md:row-start-6 md:col-start-5 md:col-end-9 md:mt-1">
           {({ open }) => (
             <>
-              <Popover.Button className="focus:outline-none text-left">
+              <Popover.Button className="focus:outline-none text-left md:mb-1">
                 Full-Stack Bootcamp
               </Popover.Button>
               <Popover.Panel
                 className={`${
                   open ? "opacity-100" : "opacity-0"
-                } absolute z-10 bg-bgblue p-3 text-xs text-white mt-2 mr-9 left-9 shadow-2xl`}
+                } absolute z-10 bg-bgblue p-3 text-xs text-white mt-2 mr-9 left-9 shadow-2xl md:text-md md:mr-16 md:ml-6`}
               >
                 <div className="flex flex-col gap-1">
                   <h1 className="font-medium text-waveBlue">
@@ -134,7 +134,7 @@ const Timeline = () => {
         </Popover>
 
         {/* Tech4Good */}
-        <Popover className="row-start-10 col-start-9 col-end-12 text-white text-[.7rem]">
+        <Popover className="row-start-10 col-start-9 col-end-12 text-white text-[.7rem] md:text-[.9rem] md:row-start-9 md:col-end-11">
           {({ open }) => (
             <>
               <Popover.Button className="focus:outline-none text-left">
@@ -143,7 +143,7 @@ const Timeline = () => {
               <Popover.Panel
                 className={`${
                   open ? "opacity-100" : "opacity-0"
-                } absolute z-10 bg-bgblue p-3 text-xs text-white mt-2 mr-9 left-9 shadow-2xl`}
+                } absolute z-10 bg-bgblue p-3 text-xs text-white mt-2 mr-9 left-9 shadow-2xl md:text-md md:mr-16 md:ml-6`}
               >
                 <div className="flex flex-col gap-1">
                   <h1 className="font-medium text-tech4good">
@@ -175,7 +175,7 @@ const Timeline = () => {
         </Popover>
 
         {/* Major UK Postal Client */}
-        <Popover className="mt-4 row-start-11 col-start-10 col-end-17 text-white text-[.7rem]">
+        <Popover className="mt-4 row-start-11 col-start-10 col-end-17 text-white text-[.7rem] md:text-[.9rem]">
           {({ open }) => (
             <>
               <Popover.Button className="focus:outline-none text-left">
@@ -184,7 +184,7 @@ const Timeline = () => {
               <Popover.Panel
                 className={`${
                   open ? "opacity-100" : "opacity-0"
-                } absolute z-10 bg-bgblue p-3 text-xs text-white mt-2 mr-9 left-9 shadow-2xl`}
+                } absolute z-10 bg-bgblue p-3 text-xs text-white mt-2 mr-9 left-9 shadow-2xl md:text-md md:mr-16 md:ml-6`}
               >
                 <div className="flex flex-col gap-1">
                   <h1 className="font-medium text-wildRed">
