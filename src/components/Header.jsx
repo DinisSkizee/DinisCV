@@ -17,17 +17,17 @@ export const Header = () => {
   return (
     <div className="flex w-full justify-between px-5 py-9 fixed bg-bgblue z-40 lg:px-12 items-center">
       <div
-        className="flex justify-start pl-4 text-white gap-2 leading-tight md:text-xl items-center select-none cursor-pointer"
+        className="flex justify-start pl-4 text-white gap-2 leading-tight md:text-xl items-center select-none cursor-pointer group"
         onClick={() => {
           window.scrollTo({ top: 0, behavior: "smooth" });
         }}
       >
-        <div>
+        <div className="group-hover:drop-shadow-lgDrop">
           DINIS
           <br />
           SILVA
         </div>
-        <span className="font-extrabold">{`</>`}</span>
+        <span className="font-extrabold group-hover:drop-shadow-lgDrop">{`</>`}</span>
       </div>
       <div className="lg:justify-center gap-4 hidden lg:flex lg:text-lg lg:text-white select-none cursor-pointer">
         <div className="hover:text-greeny" onClick={scrollToBlog}>
@@ -63,7 +63,7 @@ export const Header = () => {
           strokeWidth="1.5"
           stroke="#ffffffff"
           aria-hidden="true"
-          className="absolute h-6 w-6 rotate-90 scale-0 text-foreground transition-all dark:rotate-0 dark:scale-100 md:h-8 md:w-8 hover:stroke-greeny"
+          className="absolute h-6 w-6 rotate-90 scale-0 text-foreground transition-all dark:rotate-0 dark:scale-100 md:h-8 md:w-8 hover:stroke-greeny hover:drop-shadow-moonDrop"
         >
           <path
             strokeLinecap="round"

@@ -61,7 +61,7 @@ export const ScrollDown = () => {
       onClick={handleClick}
     >
       <ScrollDownSvg className="border-2 flex items-center w-5 h-12 rounded-full justify-center md:w-5 md:h-12" />
-      <ScrollSpan className="hidden lg:flex select-none ">Scroll</ScrollSpan>
+      <ScrollSpan className="hidden lg:flex select-none">Scroll</ScrollSpan>
     </div>
   );
 };

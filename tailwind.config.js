@@ -3,6 +3,11 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      dropShadow: {
+        strDrop: "2px 2px 2px rgba(0, 0, 0, .5)",
+        lgDrop: "0px 1px 1px rgba(255, 255, 255, .8)",
+        moonDrop: "0px 2px 2px rgba(6, 214, 160, .8)",
+      },
       colors: {
         greeny: "#06D6A0",
         greeny50: "#06d69e80",
