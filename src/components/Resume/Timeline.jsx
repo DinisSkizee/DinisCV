@@ -7,7 +7,7 @@ const Timeline = () => {
       <h3 className="text-white text-3xl ml-1 pt-12">{`.timeline()`}</h3>
 
       {/* Resume */}
-      <div className="bg-[#101116] mt-[2rem] w-full h-[20rem] grid grid-cols-16 grid-rows-15 p-4 pb-6">
+      <div className="bg-[#101116] mt-[2rem] w-full h-[20rem] grid grid-cols-16 grid-rows-15 p-4 pb-6 md:pb-8">
         {/* ARU */}
         <Popover className="row-start-1 row-end-3 col-start-1 col-end-7 text-white text-[.7rem] md:text-[.9rem] md:col-end-4 md:leading-5">
           {({ open }) => (
@@ -18,7 +18,7 @@ const Timeline = () => {
               <Popover.Panel
                 className={`${
                   open ? "opacity-100" : "opacity-0"
-                } absolute z-10 bg-bgblue p-3 text-xs text-white mt-2 mr-9 shadow-2xl md:text-md md:mr-16`}
+                } absolute z-10 bg-bgblue p-3 text-xs text-white mt-2 mr-9 shadow-2xl md:text-md md:mr-16 lg:mr-[19.5%] xl:mr-[19%] `}
               >
                 <div className="flex flex-col gap-1">
                   <h1 className="text-gold">Anglia Ruskin University</h1>
@@ -55,13 +55,13 @@ const Timeline = () => {
               <Popover.Panel
                 className={`${
                   open ? "opacity-100" : "opacity-0"
-                } absolute z-10 bg-bgblue p-3 text-xs text-white mt-2 mr-9 left-9 shadow-2xl md:text-md md:mr-16 md:ml-6`}
+                } absolute z-10 bg-bgblue p-3 text-xs text-white mt-2 mr-9 left-9 shadow-2xl md:text-md md:mr-16 md:ml-6 lg:left-[17%] lg:right-[13.3%] md:left-10 xl:right-[14.5%] xl:left-[17.3%] 2xl:left-[33.1%] 2xl:right-[15.5%]`}
               >
                 <div className="flex flex-col gap-1">
-                  <h1>Software Engineer</h1>
                   <h2 className="font-medium text-accenturePurple">
                     Accenture UK
                   </h2>
+                  <h1>Software Engineer</h1>
                   <p className="text-graywhite font-bold">Dec 2022 - Present</p>
                   <p>
                     During my time at Accenture, I made a significant impact by
@@ -99,7 +99,7 @@ const Timeline = () => {
               <Popover.Panel
                 className={`${
                   open ? "opacity-100" : "opacity-0"
-                } absolute z-10 bg-bgblue p-3 text-xs text-white mt-2 mr-9 left-9 shadow-2xl md:text-md md:mr-16 md:ml-6`}
+                } absolute z-10 bg-bgblue p-3 text-xs text-white mt-2 mr-9 left-9 shadow-2xl md:text-md md:mr-16 md:ml-6 lg:left-[17%] lg:right-[13.3%] md:left-10 xl:right-[14.5%] xl:left-[17.3%] 2xl:left-[33.1%] 2xl:right-[15.5%]`}
               >
                 <div className="flex flex-col gap-1">
                   <h1 className="font-medium text-waveBlue">
@@ -143,7 +143,7 @@ const Timeline = () => {
               <Popover.Panel
                 className={`${
                   open ? "opacity-100" : "opacity-0"
-                } absolute z-10 bg-bgblue p-3 text-xs text-white mt-2 mr-9 left-9 shadow-2xl md:text-md md:mr-16 md:ml-6`}
+                } absolute z-10 bg-bgblue p-3 text-xs text-white mt-2 mr-9 left-9 shadow-2xl md:text-md md:mr-16 md:ml-6 lg:left-[17%] lg:right-[13.3%] md:left-10 xl:right-[14.5%] xl:left-[17.3%] 2xl:left-[48.7%] 2xl:right-[15.5%]`}
               >
                 <div className="flex flex-col gap-1">
                   <h1 className="font-medium text-tech4good">
@@ -184,7 +184,7 @@ const Timeline = () => {
               <Popover.Panel
                 className={`${
                   open ? "opacity-100" : "opacity-0"
-                } absolute z-10 bg-bgblue p-3 text-xs text-white mt-2 mr-9 left-9 shadow-2xl md:text-md md:mr-16 md:ml-6`}
+                } absolute z-10 bg-bgblue p-3 text-xs text-white mt-2 mr-9 left-9 shadow-2xl md:text-md md:mr-16 md:ml-6 lg:left-[17%] lg:right-[13.3%] md:left-10 xl:right-[14.5%] xl:left-[17.3%] 2xl:left-[52.6%] 2xl:right-[15.5%]`}
               >
                 <div className="flex flex-col gap-1">
                   <h1 className="font-medium text-wildRed">
@@ -242,28 +242,28 @@ const Timeline = () => {
         {/* DateLine */}
         <div className="row-start-14 row-end-15 col-start-1 col-end-17 border-t-white border-t-4" />
 
-        <div className="text-white mt-2 row-start-14 row-end-15 col-start-1 col-end-3">
+        <div className="select-none text-white mt-2 row-start-14 row-end-15 col-start-1 col-end-3">
           2018
         </div>
-        <div className="text-white mt-2 row-start-14 row-end-15 col-start-3">
+        <div className="select-none text-white mt-2 row-start-14 row-end-15 col-start-3">
           2021
         </div>
-        <div className="text-white mt-2 row-start-14 row-end-15 col-start-5">
+        <div className="select-none text-white mt-2 row-start-14 row-end-15 col-start-5">
           2022 Dec
         </div>
-        <div className="text-white mt-2 row-start-14 row-end-15 col-start-7">
+        <div className="select-none text-white mt-2 row-start-14 row-end-15 col-start-7">
           Jan
         </div>
-        <div className="text-white mt-2 row-start-14 row-end-15 col-start-9">
+        <div className="select-none text-white mt-2 row-start-14 row-end-15 col-start-9">
           Mar
         </div>
-        <div className="text-white mt-2 row-start-14 row-end-15 col-start-11">
+        <div className="select-none text-white mt-2 row-start-14 row-end-15 col-start-11">
           May
         </div>
-        <div className="text-white mt-2 row-start-14 row-end-15 col-start-13">
+        <div className="select-none text-white mt-2 row-start-14 row-end-15 col-start-13">
           Jul
         </div>
-        <div className="text-white mt-2 row-start-14 row-end-15 col-start-15">
+        <div className="select-none text-white mt-2 row-start-14 row-end-15 col-start-15">
           Oct
         </div>
       </div>

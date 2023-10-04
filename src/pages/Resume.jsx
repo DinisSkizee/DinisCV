@@ -11,7 +11,9 @@ const Resume = () => {
 
       <Timeline />
       <div>
-        <h3 className="text-white text-3xl ml-1 pt-12 mb-[15rem]">{`.workExperience()`}</h3>
+        <h3 className="text-white text-3xl ml-1 pt-12 mb-[15rem]">
+          {`.workExperience()`}
+        </h3>
       </div>
     </div>
   );
