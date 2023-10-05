@@ -71,7 +71,8 @@ export const AboutMe = () => {
             And my career started at Accenture...
           </span>{" "}
           with a 3 month Full-Stack Bootcamp, including HTML, CSS, Javascript,
-          React, Unit Testing, MySQL, Docker, AWS, Postman, and others...
+          React, Unit Testing, MySQL, Docker, AWS (Amazon Web Services),
+          Postman, and others...
           <br />
         </PText>
 
@@ -129,9 +130,11 @@ export const AboutMe = () => {
           During the project{" "}
           <span className="text-greeny">I handled various technical tasks</span>{" "}
           including,{" "}
-          <span className="text-greeny">deploying AWS infrastructure</span>
+          <span className="text-greeny">
+            deploying AWS (Amazon Web Services) infrastructure
+          </span>
           <span> using </span>
-          <span className="text-greeny">AWS CDK</span>
+          <span className="text-greeny">AWS (Amazon Web Services) CDK</span>
           <span> and </span>
           <span className="text-greeny">
             Typescript for multiple Lambda functions
@@ -139,7 +142,7 @@ export const AboutMe = () => {
           <span> using </span>
           <span className="text-greeny">API Gateway</span>
           <span> and </span>
-          <span className="text-greeny">Cloudwatch</span>
+          <span className="text-greeny">CloudWatch</span>
           <span> mainly. </span>
           <span className="text-greeny">Created front-end journeys</span>
           <span> following the design provided, </span>
@@ -180,8 +183,8 @@ export const AboutMe = () => {
                 Implemented github Actions successfully
               </li>
               <li className="list-disc">
-                Created the AWS deployment infrastructure for the lambda
-                function
+                Created the AWS (Amazon Web Services) deployment infrastructure
+                for the lambda function
               </li>
               <li className="list-disc">Created all required API&apos;s</li>
               <li className="list-disc">

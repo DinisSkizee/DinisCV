@@ -1,5 +1,5 @@
 import SubTitle from "../SubTitle";
-import { SkillsSquare } from "./SkillsSquare";
+import { SkillsSquare } from "../SkillsSquare";
 import { Popover } from "@headlessui/react";
 
 const Timeline = () => {
@@ -86,7 +86,9 @@ const Timeline = () => {
                       <SkillsSquare color="accenturePurple40">
                         Typescript
                       </SkillsSquare>
-                      <SkillsSquare color="accenturePurple40">AWS</SkillsSquare>
+                      <SkillsSquare color="accenturePurple40">
+                        AWS (Amazon Web Services)
+                      </SkillsSquare>
                       <SkillsSquare color="accenturePurple40">
                         AWS CDK
                       </SkillsSquare>
@@ -153,7 +155,9 @@ const Timeline = () => {
                       <SkillsSquare color="waveBlue">Unit Testing</SkillsSquare>
                       <SkillsSquare color="waveBlue">MySQL</SkillsSquare>
                       <SkillsSquare color="waveBlue">Docker</SkillsSquare>
-                      <SkillsSquare color="waveBlue">AWS</SkillsSquare>
+                      <SkillsSquare color="waveBlue">
+                        AWS (Amazon Web Services)
+                      </SkillsSquare>
                       <SkillsSquare color="waveBlue">Postman</SkillsSquare>
                     </div>
                   </div>
@@ -252,7 +256,9 @@ const Timeline = () => {
                       <SkillsSquare color="wildRed">Golang</SkillsSquare>
                       <SkillsSquare color="wildRed">JSON</SkillsSquare>
                       <SkillsSquare color="wildRed">Unit Testing</SkillsSquare>
-                      <SkillsSquare color="wildRed">AWS</SkillsSquare>
+                      <SkillsSquare color="wildRed">
+                        AWS (Amazon Web Services)
+                      </SkillsSquare>
                       <SkillsSquare color="wildRed">AWS CDK</SkillsSquare>
                       <SkillsSquare color="wildRed">Lambda</SkillsSquare>
                       <SkillsSquare color="wildRed">API Gateway</SkillsSquare>

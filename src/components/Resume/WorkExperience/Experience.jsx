@@ -1,4 +1,4 @@
-import { SkillsSquare } from "../Timeline/SkillsSquare";
+import { SkillsSquare } from "../SkillsSquare";
 
 const Experience = () => {
   return (
@@ -40,7 +40,7 @@ const Experience = () => {
               MySQL
             </SkillsSquare>
             <SkillsSquare color="bgBlue" work={true}>
-              AWS
+              AWS (Amazon Web Services)
             </SkillsSquare>
             <SkillsSquare color="bgBlue" work={true}>
               AWS CDK
@@ -134,7 +134,7 @@ const Experience = () => {
               Golang
             </SkillsSquare>
             <SkillsSquare color="bgBlue" work={true}>
-              AWS
+              AWS (Amazon Web Services)
             </SkillsSquare>
             <SkillsSquare color="bgBlue" work={true}>
               AWS CDK
@@ -173,7 +173,7 @@ const Experience = () => {
               Initiative
             </SkillsSquare>
             <SkillsSquare color="bgBlue" work={true}>
-              Problem-Solving
+              Problem Solving
             </SkillsSquare>
             <SkillsSquare color="bgBlue" work={true}>
               Fast Progression
@@ -211,7 +211,7 @@ const Experience = () => {
               Initiative
             </SkillsSquare>
             <SkillsSquare color="bgBlue" work={true}>
-              Problem-Solving
+              Problem Solving
             </SkillsSquare>
           </div>
         </li>
@@ -244,7 +244,7 @@ const Experience = () => {
               Initiative
             </SkillsSquare>
             <SkillsSquare color="bgBlue" work={true}>
-              Problem-Solving
+              Problem Solving
             </SkillsSquare>
           </div>
         </li>

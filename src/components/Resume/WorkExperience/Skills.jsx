@@ -1,4 +1,4 @@
-import { SkillsSquare } from "../Timeline/SkillsSquare";
+import { SkillsSquare } from "../SkillsSquare";
 
 const Skills = () => {
   return (
@@ -33,6 +33,9 @@ const Skills = () => {
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
               Next.js
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Vite
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
               Zustand
@@ -80,6 +83,9 @@ const Skills = () => {
             <SkillsSquare color="bgDarkBlue" work={true}>
               Zod
             </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Postman
+            </SkillsSquare>
           </div>
         </div>
 
@@ -97,7 +103,7 @@ const Skills = () => {
               Lambda
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
-              Cloudwatch Logs
+              CloudWatch Logs
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
               AWS CDK
@@ -113,7 +119,7 @@ const Skills = () => {
 
         {/* PROJECT MANAGEMENT TOOLS */}
         <div>
-          <h2>Project Management & Collaboration Tools</h2>
+          <h2>Project Collaboration Tools</h2>
           <div className="flex-wrap flex gap-1">
             <SkillsSquare color="bgDarkBlue" work={true}>
               Confluence
@@ -147,6 +153,35 @@ const Skills = () => {
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
               Discord
+            </SkillsSquare>
+          </div>
+        </div>
+        <div>
+          <h2>Soft Skills</h2>
+          <div className="flex-wrap flex gap-1">
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Proactivity
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Leadership
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Ownership
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Collaboration
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Communication
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Initiative
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Problem Solving
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Fast Progression
             </SkillsSquare>
           </div>
         </div>
