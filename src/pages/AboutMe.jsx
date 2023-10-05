@@ -30,7 +30,7 @@ export const AboutMe = () => {
   }, []);
 
   return (
-    <div className="bg-bgblue pt-[35%] md:text-lg">
+    <div className="bg-bgBlue pt-[35%] md:text-lg">
       {/* Title */}
       <div id="blog" className="w-full flex justify-center">
         <h1 className="text-white text-5xl">

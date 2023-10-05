@@ -1,20 +1,17 @@
-import Timeline from "../components/Resume/Timeline";
+import Timeline from "../components/Resume/Timeline/Timeline";
+import WorkExperience from "../components/Resume/WorkExperience/WorkExperience";
 
 const Resume = () => {
   return (
     <div
       id="resume"
-      className="bg-bgblue pt-[35%] md:text-lg pb-16 px-5 lg:px-[18%] md:px-12"
+      className="bg-bgBlue pt-[35%] md:text-lg pb-16 px-5 lg:px-[18%] md:px-12"
     >
-      {/* Title */}
       <h1 className="text-white text-5xl">{`.resume()`}</h1>
 
       <Timeline />
-      <div>
-        <h3 className="text-white text-3xl ml-1 pt-12 mb-[15rem]">
-          {`.workExperience()`}
-        </h3>
-      </div>
+
+      <WorkExperience />
     </div>
   );
 };

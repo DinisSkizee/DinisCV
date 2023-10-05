@@ -1,9 +1,9 @@
-import { Main } from "../components/Main";
-import { ScrollDown } from "../components/ScrollDown";
+import { Main } from "../components/Global/Main";
+import { ScrollDown } from "../components/Global/ScrollDown";
 
 export const MainPage = () => {
   return (
-    <div className="bg-bgblue w-full h-screen flex flex-col justify-between">
+    <div className="bg-bgBlue w-full h-screen flex flex-col justify-between">
       <Main />
 
       <ScrollDown />

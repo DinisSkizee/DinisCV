@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const Footer = () => {
   return (
-    <div className="lg:hidden flex fixed bottom-0 w-full justify-between p-4 bg-bgblue">
+    <div className="lg:hidden flex fixed bottom-0 w-full justify-between p-4 bg-bgBlue">
       <div className="text-white md:text-xl">Get In touch:</div>
       <div className="flex gap-4 justify-end">
         <a href="https://www.linkedin.com/in/dinissilvase/" target="blank">

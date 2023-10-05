@@ -15,7 +15,7 @@ export const Header = () => {
     window.scrollTo({ top: offsetTop, behavior: "smooth" });
   };
   return (
-    <div className="flex w-full justify-between px-5 py-9 fixed bg-bgblue z-40 lg:px-12 items-center">
+    <div className="flex w-full justify-between px-5 py-9 fixed bg-bgBlue z-40 lg:px-12 items-center">
       <div
         className="flex justify-start pl-4 text-white gap-2 leading-tight md:text-xl items-center select-none cursor-pointer group"
         onClick={() => {
