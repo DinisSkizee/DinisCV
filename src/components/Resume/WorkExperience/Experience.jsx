@@ -6,7 +6,7 @@ const Experience = () => {
       <div className="text-white flex flex-col">
         <div>
           <h2 className="text-greeny font-bold">
-            Full-Stack Software Engineer
+            Graduate Full-Stack Software Engineer
           </h2>
           <h2>{`Accenture, Remote (Edinburgh)`}</h2>
         </div>
