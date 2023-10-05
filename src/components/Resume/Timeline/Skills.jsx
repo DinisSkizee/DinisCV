@@ -5,8 +5,9 @@ const colors = {
   tech4good: "bg-tech4good",
   wildRed: "bg-wildRed",
   bgBlue: "bg-bgBlue",
+  bgDarkBlue: "bg-bgDarkBlue",
 };
-export const Skills = ({ children, color, work }) => {
+export const SkillsSquare = ({ children, color, work }) => {
   const bgColor = colors[color] || "";
 
   return (

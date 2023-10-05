@@ -1,4 +1,4 @@
-import { Skills } from "../Timeline/Skills";
+import { SkillsSquare } from "../Timeline/Skills";
 
 const Experience = () => {
   return (
@@ -6,9 +6,10 @@ const Experience = () => {
       <div className="text-white flex flex-col">
         <div>
           <h2 className="text-greeny font-bold">
-            Graduate Full-Stack Software Engineer
+            Graduate Full-Stack
+            <br className="visible md:hidden" /> Software Engineer
           </h2>
-          <h2>{`Accenture, Remote (Edinburgh)`}</h2>
+          <h2>Accenture, Remote (Edinburgh)</h2>
         </div>
         <div className="italic">December 2022 - Present</div>
       </div>
@@ -23,36 +24,42 @@ const Experience = () => {
           graduates to develop projects using Agile methodologies, with a final
           in-person presentation.
           <div className="mt-2 flex flex-wrap gap-2">
-            <Skills color="bgBlue" work={true}>
+            <SkillsSquare color="bgBlue" work={true}>
               Javascript
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Node.js
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
+              Express
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               React
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               MySQL
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               AWS
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
+              AWS CDK
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Docker
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Postman
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Collaboration
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Proactivity
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Communication
-            </Skills>
+            </SkillsSquare>
           </div>
         </li>
 
@@ -66,36 +73,39 @@ const Experience = () => {
             conversations and lead the product presentation.
           </p>
           <div className="mt-2 flex flex-wrap gap-2">
-            <Skills color="bgBlue" work={true}>
+            <SkillsSquare color="bgBlue" work={true}>
               Javascript
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               React
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
+              Vite
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Tailwind
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Material UI
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Styled-Components
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Leadership
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Ownership
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Collaboration
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Proactivity
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Communication
-            </Skills>
+            </SkillsSquare>
           </div>
         </li>
 
@@ -117,57 +127,57 @@ const Experience = () => {
             </p>
           </div>
           <div className="mt-2 flex flex-wrap gap-1">
-            <Skills color="bgBlue" work={true}>
+            <SkillsSquare color="bgBlue" work={true}>
               Typescript
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Golang
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               AWS
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               AWS CDK
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Lambda
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               API Gateway
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               CloudWatch Logs
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Confluence
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Jira
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Leadership
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Ownership
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Collaboration
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Proactivity
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Communication
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Initiative
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Problem-Solving
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Fast Progression
-            </Skills>
+            </SkillsSquare>
           </div>
         </li>
 
@@ -179,30 +189,30 @@ const Experience = () => {
           <span className="text-white">Scrum Master</span>{" "}
           <span className="text-white">Tech Lead</span> and the entire team.
           <div className="mt-2 flex flex-wrap gap-1">
-            <Skills color="bgBlue" work={true}>
+            <SkillsSquare color="bgBlue" work={true}>
               Star of the Month
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Ownership
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Leadership
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Collaboration
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Proactivity
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Communication
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Initiative
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Problem-Solving
-            </Skills>
+            </SkillsSquare>
           </div>
         </li>
 
@@ -212,30 +222,30 @@ const Experience = () => {
           fulfilled, created diagrams, tracked progress, and collaborated with
           the team/cross-team.
           <div className="mt-2 flex flex-wrap gap-1">
-            <Skills color="bgBlue" work={true}>
+            <SkillsSquare color="bgBlue" work={true}>
               Jira
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Confluence
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Leadership
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Collaboration
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Proactivity
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Communication
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Initiative
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Problem-Solving
-            </Skills>
+            </SkillsSquare>
           </div>
         </li>
 
@@ -243,27 +253,27 @@ const Experience = () => {
         <li className="ml-3 list-disc">
           Made a significant impact company-wide as a Software Engineer.
           <div className="mt-2 flex flex-wrap gap-1">
-            <Skills color="bgBlue" work={true}>
+            <SkillsSquare color="bgBlue" work={true}>
               Leadership
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Ownership
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Fast Progression
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Collaboration
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Proactivity
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Communication
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Initiative
-            </Skills>
+            </SkillsSquare>
           </div>
         </li>
 
@@ -272,15 +282,15 @@ const Experience = () => {
           Recruitment program where I shared my experiences as a graduate at
           Accenture.
           <div className="mt-2 flex flex-wrap gap-1">
-            <Skills color="bgBlue" work={true}>
+            <SkillsSquare color="bgBlue" work={true}>
               Proactivity
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Communication
-            </Skills>
-            <Skills color="bgBlue" work={true}>
+            </SkillsSquare>
+            <SkillsSquare color="bgBlue" work={true}>
               Initiative
-            </Skills>
+            </SkillsSquare>
           </div>
         </li>
       </div>
