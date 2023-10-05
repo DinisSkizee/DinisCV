@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const PreSite = (setValid) => {
+const PreSite = ({ setValid }) => {
   const [inputValue, setInputValue] = useState("");
 
   const handleInputChange = (e) => {

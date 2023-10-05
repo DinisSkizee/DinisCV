@@ -2,6 +2,7 @@ import { useState } from "react";
 import SubTitle from "../SubTitle";
 import StateSelection from "./StateSelection";
 import Experience from "./Experience";
+import Education from "./Education";
 
 const WorkExperience = () => {
   const [isExperience, setIsExperience] = useState(true);
@@ -13,7 +14,7 @@ const WorkExperience = () => {
     <div>
       <SubTitle>{`.workExperience()`}</SubTitle>
       <div className="flex flex-col">
-        <div className="bg-bgDarkBlue mt-[2rem] w-full p-4">
+        <div className="bg-bgDarkBlue mt-[2rem] w-full p-4 min-h-[300px]">
           {/* STATES */}
           <div className="flex mb-6">
             <StateSelection
@@ -28,8 +29,7 @@ const WorkExperience = () => {
             />
           </div>
 
-          {/* EXPERIENCE */}
-          <Experience />
+          {isExperience ? <Experience /> : <Education />}
         </div>
         <div></div>
       </div>
