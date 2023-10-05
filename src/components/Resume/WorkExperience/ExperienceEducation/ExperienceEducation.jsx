@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Education from "./Education";
-import Experience from "./Experience";
+import Education from "../Education";
+import Experience from "../Experience";
 import StateSelection from "./StateSelection";
 
 const ExperienceEducation = () => {

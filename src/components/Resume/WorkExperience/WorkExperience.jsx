@@ -1,6 +1,6 @@
-import Skills from "./Skills";
+import Skills from "./Skills/Skills";
 import SubTitle from "../SubTitle";
-import ExperienceEducation from "./ExperienceEducation";
+import ExperienceEducation from "./ExperienceEducation/ExperienceEducation";
 
 const WorkExperience = () => {
   return (

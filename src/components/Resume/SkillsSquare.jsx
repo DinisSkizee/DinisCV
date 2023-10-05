@@ -22,11 +22,11 @@ export const SkillsSquare = ({ children, color, work }) => {
   const isHighlighted = selectedSkills && selectedSkills.includes(children);
   return (
     <div
-      className={`${bgColor} py-1 px-2 rounded-lg flex items-center shadow-2xl w-fit ${
+      className={`${bgColor} select-none py-1 px-2 rounded-lg flex items-center shadow-2xl w-fit ${
         work
           ? "py-1.5 text-xs text-white hover:bg-greeny hover:text-bgDarkBlue hover:font-medium"
           : ""
-      } ${isHighlighted ? "bg-greeny text-bgDarkBlue font-semibold" : ""}`}
+      } ${isHighlighted ? "bg-greeny !text-bgDarkBlue font-semibold" : ""}`}
       onClick={work ? skillsHandler : null}
     >
       {children}

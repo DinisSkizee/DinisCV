@@ -1,4 +1,4 @@
-import { SkillsSquare } from "../SkillsSquare";
+import { SkillsSquare } from "../../SkillsSquare";
 
 const Skills = () => {
   return (
