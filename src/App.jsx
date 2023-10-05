@@ -9,7 +9,7 @@ import Resume from "./pages/Resume";
 
 const App = () => {
   const [inputValue, setInputValue] = useState("");
-  const [valid, setValid] = useState(true);
+  const [valid, setValid] = useState(false);
 
   const handleInputChange = (e) => {
     setInputValue(e.target.value);
