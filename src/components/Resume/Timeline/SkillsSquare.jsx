@@ -1,11 +1,11 @@
 const colors = {
-  waveBlue: "bg-waveBlue",
-  accenturePurple40: "bg-accenturePurple40",
   gold30: "bg-gold30",
-  tech4good: "bg-tech4good",
-  wildRed: "bg-wildRed",
   bgBlue: "bg-bgBlue",
+  wildRed: "bg-wildRed",
+  waveBlue: "bg-waveBlue",
+  tech4good: "bg-tech4good",
   bgDarkBlue: "bg-bgDarkBlue",
+  accenturePurple40: "bg-accenturePurple40",
 };
 export const SkillsSquare = ({ children, color, work }) => {
   const bgColor = colors[color] || "";

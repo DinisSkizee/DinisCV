@@ -1,7 +1,6 @@
-import { useEffect } from "react";
-import { useState } from "react";
-import { AboutWhat } from "../components/AboutMe/AboutWhat";
+import { useState, useEffect } from "react";
 import { PText } from "../components/AboutMe/PText";
+import { AboutWhat } from "../components/AboutMe/AboutWhat";
 
 export const AboutMe = () => {
   const [scrollHeight, setScrollHeight] = useState(0);

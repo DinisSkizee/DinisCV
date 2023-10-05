@@ -1,6 +1,6 @@
-import { Popover } from "@headlessui/react";
-import { Skills } from "./Skills";
 import SubTitle from "../SubTitle";
+import { SkillsSquare } from "./SkillsSquare";
+import { Popover } from "@headlessui/react";
 
 const Timeline = () => {
   return (
@@ -29,15 +29,21 @@ const Timeline = () => {
                       Sep 2018 - Jun 2021
                     </p>
                     <div className="flex gap-2 flex-wrap text-[.6rem] font-bold mt-2">
-                      <Skills color="gold30">Mathematics</Skills>
-                      <Skills color="gold30">Databases</Skills>
-                      <Skills color="gold30">Interaction & Usability</Skills>
-                      <Skills color="gold30">Software Engineering</Skills>
-                      <Skills color="gold30">C++ OOP</Skills>
-                      <Skills color="gold30">C# OOP</Skills>
-                      <Skills color="gold30">Java</Skills>
-                      <Skills color="gold30">Distributed Programming</Skills>
-                      <Skills color="gold30">ASP.NET MVC</Skills>
+                      <SkillsSquare color="gold30">Mathematics</SkillsSquare>
+                      <SkillsSquare color="gold30">Databases</SkillsSquare>
+                      <SkillsSquare color="gold30">
+                        Interaction & Usability
+                      </SkillsSquare>
+                      <SkillsSquare color="gold30">
+                        Software Engineering
+                      </SkillsSquare>
+                      <SkillsSquare color="gold30">C++ OOP</SkillsSquare>
+                      <SkillsSquare color="gold30">C# OOP</SkillsSquare>
+                      <SkillsSquare color="gold30">Java</SkillsSquare>
+                      <SkillsSquare color="gold30">
+                        Distributed Programming
+                      </SkillsSquare>
+                      <SkillsSquare color="gold30">ASP.NET MVC</SkillsSquare>
                     </div>
                   </div>
                 </Popover.Panel>
@@ -74,17 +80,37 @@ const Timeline = () => {
                       early talent promotional videos.
                     </p>
                     <div className="flex gap-2 flex-wrap text-[.6rem] w-fit font-bold mt-2">
-                      <Skills color="accenturePurple40">Golang</Skills>
-                      <Skills color="accenturePurple40">Typescript</Skills>
-                      <Skills color="accenturePurple40">AWS</Skills>
-                      <Skills color="accenturePurple40">AWS CDK</Skills>
-                      <Skills color="accenturePurple40">APIs</Skills>
-                      <Skills color="accenturePurple40">API Gateway</Skills>
-                      <Skills color="accenturePurple40">Lambda</Skills>
-                      <Skills color="accenturePurple40">React</Skills>
-                      <Skills color="accenturePurple40">Confluence</Skills>
-                      <Skills color="accenturePurple40">Jira</Skills>
-                      <Skills color="accenturePurple40">Swagger</Skills>
+                      <SkillsSquare color="accenturePurple40">
+                        Golang
+                      </SkillsSquare>
+                      <SkillsSquare color="accenturePurple40">
+                        Typescript
+                      </SkillsSquare>
+                      <SkillsSquare color="accenturePurple40">AWS</SkillsSquare>
+                      <SkillsSquare color="accenturePurple40">
+                        AWS CDK
+                      </SkillsSquare>
+                      <SkillsSquare color="accenturePurple40">
+                        APIs
+                      </SkillsSquare>
+                      <SkillsSquare color="accenturePurple40">
+                        API Gateway
+                      </SkillsSquare>
+                      <SkillsSquare color="accenturePurple40">
+                        Lambda
+                      </SkillsSquare>
+                      <SkillsSquare color="accenturePurple40">
+                        React
+                      </SkillsSquare>
+                      <SkillsSquare color="accenturePurple40">
+                        Confluence
+                      </SkillsSquare>
+                      <SkillsSquare color="accenturePurple40">
+                        Jira
+                      </SkillsSquare>
+                      <SkillsSquare color="accenturePurple40">
+                        Swagger
+                      </SkillsSquare>
                     </div>
                   </div>
                 </Popover.Panel>
@@ -119,16 +145,16 @@ const Timeline = () => {
                       presentation.
                     </p>
                     <div className="flex gap-2 flex-wrap text-[.6rem] w-fit font-bold mt-2">
-                      <Skills color="waveBlue">HTML</Skills>
-                      <Skills color="waveBlue">CSS</Skills>
-                      <Skills color="waveBlue">Javascript</Skills>
-                      <Skills color="waveBlue">Node.js</Skills>
-                      <Skills color="waveBlue">React</Skills>
-                      <Skills color="waveBlue">Unit Testing</Skills>
-                      <Skills color="waveBlue">MySQL</Skills>
-                      <Skills color="waveBlue">Docker</Skills>
-                      <Skills color="waveBlue">AWS</Skills>
-                      <Skills color="waveBlue">Postman</Skills>
+                      <SkillsSquare color="waveBlue">HTML</SkillsSquare>
+                      <SkillsSquare color="waveBlue">CSS</SkillsSquare>
+                      <SkillsSquare color="waveBlue">Javascript</SkillsSquare>
+                      <SkillsSquare color="waveBlue">Node.js</SkillsSquare>
+                      <SkillsSquare color="waveBlue">React</SkillsSquare>
+                      <SkillsSquare color="waveBlue">Unit Testing</SkillsSquare>
+                      <SkillsSquare color="waveBlue">MySQL</SkillsSquare>
+                      <SkillsSquare color="waveBlue">Docker</SkillsSquare>
+                      <SkillsSquare color="waveBlue">AWS</SkillsSquare>
+                      <SkillsSquare color="waveBlue">Postman</SkillsSquare>
                     </div>
                   </div>
                 </Popover.Panel>
@@ -163,14 +189,16 @@ const Timeline = () => {
                       to help them help more people.
                     </p>
                     <div className="flex gap-2 flex-wrap text-[.6rem] w-fit font-bold mt-2">
-                      <Skills color="tech4good">HTML</Skills>
-                      <Skills color="tech4good">CSS</Skills>
-                      <Skills color="tech4good">Javascript</Skills>
-                      <Skills color="tech4good">React</Skills>
-                      <Skills color="tech4good">Tailwind</Skills>
-                      <Skills color="tech4good">Styled Components</Skills>
-                      <Skills color="tech4good">Material UI</Skills>
-                      <Skills color="tech4good">Figma</Skills>
+                      <SkillsSquare color="tech4good">HTML</SkillsSquare>
+                      <SkillsSquare color="tech4good">CSS</SkillsSquare>
+                      <SkillsSquare color="tech4good">Javascript</SkillsSquare>
+                      <SkillsSquare color="tech4good">React</SkillsSquare>
+                      <SkillsSquare color="tech4good">Tailwind</SkillsSquare>
+                      <SkillsSquare color="tech4good">
+                        Styled Components
+                      </SkillsSquare>
+                      <SkillsSquare color="tech4good">Material UI</SkillsSquare>
+                      <SkillsSquare color="tech4good">Figma</SkillsSquare>
                     </div>
                   </div>
                 </Popover.Panel>
@@ -220,22 +248,30 @@ const Timeline = () => {
                       </li>
                     </ol>
                     <div className="flex gap-2 flex-wrap text-[.6rem] w-fit font-bold mt-2">
-                      <Skills color="wildRed">Typescript</Skills>
-                      <Skills color="wildRed">Golang</Skills>
-                      <Skills color="wildRed">JSON</Skills>
-                      <Skills color="wildRed">Unit Testing</Skills>
-                      <Skills color="wildRed">AWS</Skills>
-                      <Skills color="wildRed">AWS CDK</Skills>
-                      <Skills color="wildRed">Lambda</Skills>
-                      <Skills color="wildRed">API Gateway</Skills>
-                      <Skills color="wildRed">API</Skills>
-                      <Skills color="wildRed">Swagger</Skills>
-                      <Skills color="wildRed">CloudWatch Logs</Skills>
-                      <Skills color="wildRed">Confluence</Skills>
-                      <Skills color="wildRed">Jira</Skills>
-                      <Skills color="wildRed">Star Of The Month</Skills>
-                      <Skills color="wildRed">Teams Cross Dependencies</Skills>
-                      <Skills color="wildRed">People Champions Group</Skills>
+                      <SkillsSquare color="wildRed">Typescript</SkillsSquare>
+                      <SkillsSquare color="wildRed">Golang</SkillsSquare>
+                      <SkillsSquare color="wildRed">JSON</SkillsSquare>
+                      <SkillsSquare color="wildRed">Unit Testing</SkillsSquare>
+                      <SkillsSquare color="wildRed">AWS</SkillsSquare>
+                      <SkillsSquare color="wildRed">AWS CDK</SkillsSquare>
+                      <SkillsSquare color="wildRed">Lambda</SkillsSquare>
+                      <SkillsSquare color="wildRed">API Gateway</SkillsSquare>
+                      <SkillsSquare color="wildRed">API</SkillsSquare>
+                      <SkillsSquare color="wildRed">Swagger</SkillsSquare>
+                      <SkillsSquare color="wildRed">
+                        CloudWatch Logs
+                      </SkillsSquare>
+                      <SkillsSquare color="wildRed">Confluence</SkillsSquare>
+                      <SkillsSquare color="wildRed">Jira</SkillsSquare>
+                      <SkillsSquare color="wildRed">
+                        Star Of The Month
+                      </SkillsSquare>
+                      <SkillsSquare color="wildRed">
+                        Teams Cross Dependencies
+                      </SkillsSquare>
+                      <SkillsSquare color="wildRed">
+                        People Champions Group
+                      </SkillsSquare>
                     </div>
                   </div>
                 </Popover.Panel>

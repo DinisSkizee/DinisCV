@@ -1,4 +1,4 @@
-import { SkillsSquare } from "../Timeline/Skills";
+import { SkillsSquare } from "../Timeline/SkillsSquare";
 
 const Skills = () => {
   return (
