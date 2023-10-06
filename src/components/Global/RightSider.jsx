@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const RightSider = () => {
   return (
-    <div className="flex-col items-center hidden w-4 gap-4 lg:flex fixed bottom-0 lg:right-12">
+    <div className="flex-col items-center hidden w-4 gap-4 lg:flex fixed bottom-0 lg:right-12 2xl:right-24">
       <div className="flex flex-col gap-4 justify-end">
         <a href="https://www.linkedin.com/in/dinissilvase/" target="blank">
           <FontAwesomeIcon className="text-white h-5" icon={faGithub} />

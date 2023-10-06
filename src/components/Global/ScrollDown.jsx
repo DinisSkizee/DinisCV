@@ -47,8 +47,8 @@ export const ScrollDown = () => {
     if (window.innerWidth < 768) expression = -100;
     else if (window.innerWidth < 1024) expression = 0;
     else if (window.innerWidth < 1440) expression = 50;
-    else if (window.innerWidth < 1920) expression = 50;
-    else if (window.innerWidth > 1920) expression = 120;
+    else if (window.innerWidth < 1920) expression = 100;
+    else if (window.innerWidth >= 1920) expression = 150;
 
     window.scrollTo({
       top: window.innerHeight + expression,

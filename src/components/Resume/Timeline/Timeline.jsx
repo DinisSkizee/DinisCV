@@ -63,7 +63,7 @@ const Timeline = () => {
                 <Popover.Panel
                   className={`${
                     open ? "opacity-100" : "opacity-0"
-                  } absolute z-10 bg-bgBlue p-3 text-xs text-white mt-2 mr-9 left-9 shadow-2xl md:text-md md:mr-16 md:ml-6 lg:left-[17%] lg:right-[13.3%] md:left-10 xl:right-[14.5%] xl:left-[17.3%] 2xl:left-[33.1%] 2xl:right-[15.5%]`}
+                  } absolute z-10 bg-bgBlue p-3 text-xs text-white mt-2 mr-9 left-9 shadow-2xl md:text-md md:mr-16 md:ml-6 lg:left-[17%] lg:right-[13.3%] md:left-10 xl:right-[14.5%] xl:left-[17.3%] 2xl:left-[33.1%] 2xl:right-[17.5%]`}
                 >
                   <div className="flex flex-col gap-1">
                     <h2 className="font-medium text-accenturePurple">
@@ -131,7 +131,7 @@ const Timeline = () => {
                 <Popover.Panel
                   className={`${
                     open ? "opacity-100" : "opacity-0"
-                  } absolute z-10 bg-bgBlue p-3 text-xs text-white mt-2 mr-9 left-9 shadow-2xl md:text-md md:mr-16 md:ml-6 lg:left-[17%] lg:right-[13.3%] md:left-10 xl:right-[14.5%] xl:left-[17.3%] 2xl:left-[33.1%] 2xl:right-[15.5%]`}
+                  } absolute z-10 bg-bgBlue p-3 text-xs text-white mt-2 mr-9 left-9 shadow-2xl md:text-md md:mr-16 md:ml-6 lg:left-[17%] lg:right-[13.3%] md:left-10 xl:right-[14.5%] xl:left-[17.3%] 2xl:left-[33.1%] 2xl:right-[17.5%]`}
                 >
                   <div className="flex flex-col gap-1">
                     <h1 className="font-medium text-waveBlue">
@@ -177,7 +177,7 @@ const Timeline = () => {
                 <Popover.Panel
                   className={`${
                     open ? "opacity-100" : "opacity-0"
-                  } absolute z-10 bg-bgBlue p-3 text-xs text-white mt-2 mr-9 left-9 shadow-2xl md:text-md md:mr-16 md:ml-6 lg:left-[17%] lg:right-[13.3%] md:left-10 xl:right-[14.5%] xl:left-[17.3%] 2xl:left-[48.7%] 2xl:right-[15.5%]`}
+                  } absolute z-10 bg-bgBlue p-3 text-xs text-white mt-2 mr-9 left-9 shadow-2xl md:text-md md:mr-16 md:ml-6 lg:left-[17%] lg:right-[13.3%] md:left-10 xl:right-[14.5%] xl:left-[17.3%] 2xl:left-[48.7%] 2xl:right-[17.5%]`}
                 >
                   <div className="flex flex-col gap-1">
                     <h1 className="font-medium text-tech4good">
@@ -223,7 +223,7 @@ const Timeline = () => {
                 <Popover.Panel
                   className={`${
                     open ? "opacity-100" : "opacity-0"
-                  } absolute z-10 bg-bgBlue p-3 text-xs text-white mt-2 mr-9 left-9 shadow-2xl md:text-md md:mr-16 md:ml-6 lg:left-[17%] lg:right-[13.3%] md:left-10 xl:right-[14.5%] xl:left-[17.3%] 2xl:left-[52.6%] 2xl:right-[15.5%]`}
+                  } absolute z-10 bg-bgBlue p-3 text-xs text-white mt-2 mr-9 left-9 shadow-2xl md:text-md md:mr-16 md:ml-6 lg:left-[17%] lg:right-[13.3%] md:left-10 xl:right-[14.5%] xl:left-[17.3%] 2xl:left-[52.6%] 2xl:right-[17.5%]`}
                 >
                   <div className="flex flex-col gap-1">
                     <h1 className="font-medium text-wildRed">

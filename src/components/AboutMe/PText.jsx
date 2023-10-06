@@ -63,18 +63,18 @@ const PStyled = styled.div`
         ? "white"
         : "#8A8A8D"
       : props.width < 2500
-      ? (props.number === 1 && props.height >= 950 && props.height <= 1500) ||
-        (props.number === 2 && props.height >= 1150 && props.height <= 1800) ||
-        (props.number === 3 && props.height >= 1250 && props.height <= 1850) ||
-        (props.number === 4 && props.height >= 1450 && props.height <= 2100) ||
-        (props.number === 5 && props.height >= 1700 && props.height <= 2350) ||
-        (props.number === 6 && props.height >= 2000 && props.height <= 2600) ||
-        (props.number === 7 && props.height >= 2300 && props.height <= 2900) ||
-        (props.number === 8 && props.height >= 2550 && props.height <= 3200) ||
-        (props.number === 9 && props.height >= 2950 && props.height <= 3700) ||
-        (props.number === 10 && props.height >= 3200 && props.height <= 3850) ||
-        (props.number === 11 && props.height >= 3350 && props.height <= 4100) ||
-        (props.number === 12 && props.height >= 3600 && props.height <= 4300)
+      ? (props.number === 1 && props.height >= 850 && props.height <= 1200) ||
+        (props.number === 2 && props.height >= 1050 && props.height <= 1400) ||
+        (props.number === 3 && props.height >= 1150 && props.height <= 1550) ||
+        (props.number === 4 && props.height >= 1350 && props.height <= 1700) ||
+        (props.number === 5 && props.height >= 1600 && props.height <= 1950) ||
+        (props.number === 6 && props.height >= 1900 && props.height <= 2200) ||
+        (props.number === 7 && props.height >= 2100 && props.height <= 2500) ||
+        (props.number === 8 && props.height >= 2350 && props.height <= 2700) ||
+        (props.number === 9 && props.height >= 2600 && props.height <= 3200) ||
+        (props.number === 10 && props.height >= 2900 && props.height <= 3450) ||
+        (props.number === 11 && props.height >= 3150 && props.height <= 3650) ||
+        (props.number === 12 && props.height >= 3200 && props.height <= 3800)
         ? "white"
         : "#8A8A8D"
       : ""};

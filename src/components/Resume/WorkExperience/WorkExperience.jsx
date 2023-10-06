@@ -5,8 +5,8 @@ import ExperienceEducation from "./ExperienceEducation/ExperienceEducation";
 const WorkExperience = () => {
   return (
     <div>
-      <SubTitle>{`.workExperience()`}</SubTitle>
       <Skills />
+      <SubTitle>{`.workExperience()`}</SubTitle>
 
       <ExperienceEducation />
     </div>

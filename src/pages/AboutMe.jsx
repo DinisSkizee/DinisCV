@@ -39,7 +39,7 @@ export const AboutMe = () => {
       </MainTitle>
 
       {/* TEXT */}
-      <div className="text-graywhite text-justify mt-[5rem] flex flex-col gap-4">
+      <div className="text-graywhite text-justify mt-[5rem] flex flex-col 2xl:px-[10%]">
         <AboutWhat start={"true"}>the start</AboutWhat>
         <PText width={windowWidth} height={scrollHeight} number={1}>
           I have always had a strong affinity for technology, I have had a
