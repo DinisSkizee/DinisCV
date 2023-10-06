@@ -1,6 +1,6 @@
 export const LeftSider = () => {
   return (
-    <div className="flex-col hidden w-4 gap-4 lg:flex fixed bottom-0 lg:left-24">
+    <div className="flex-col hidden w-4 gap-4 lg:flex fixed bottom-0 lg:left-12">
       <a
         className="text-sm -rotate-90 text-white"
         href="mailto:dinissilvauk@gmail.com"

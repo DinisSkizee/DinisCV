@@ -44,11 +44,11 @@ const ScrollDownSvg = styled.div`
 export const ScrollDown = () => {
   let expression = window.innerHeight / 2;
   const handleClick = () => {
-    if (window.innerWidth < 768) expression = 0;
-    else if (window.innerWidth < 1024) expression = 100;
-    else if (window.innerWidth < 1440) expression = window.innerHeight / 5;
-    else if (window.innerWidth < 1920) expression = window.innerHeight / 3;
-    else if (window.innerWidth > 1920) expression = window.innerHeight / 1.5;
+    if (window.innerWidth < 768) expression = -100;
+    else if (window.innerWidth < 1024) expression = 0;
+    else if (window.innerWidth < 1440) expression = 50;
+    else if (window.innerWidth < 1920) expression = 50;
+    else if (window.innerWidth > 1920) expression = 120;
 
     window.scrollTo({
       top: window.innerHeight + expression,

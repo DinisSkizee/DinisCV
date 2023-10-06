@@ -4,10 +4,10 @@ const StateSelection = ({ handleSelection, isExp, isExperience }) => {
       className={`${
         isExp
           ? isExperience
-            ? "bg-bgBlue"
+            ? "bg-bgLessBlue"
             : ""
           : !isExperience
-          ? "bg-bgBlue"
+          ? "bg-bgLessBlue"
           : ""
       } text-white px-2 py-1 select-none cursor-pointer`}
       onClick={() => handleSelection(isExp)}

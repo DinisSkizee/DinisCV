@@ -1,5 +1,5 @@
-import SubTitle from "../SubTitle";
-import { SkillsSquare } from "../SkillsSquare";
+import SubTitle from "../../Global/SubTitle";
+import { SkillsSquare } from "../../Global/SkillsSquare";
 import { Popover } from "@headlessui/react";
 
 const Timeline = () => {
@@ -197,7 +197,9 @@ const Timeline = () => {
                       <SkillsSquare color="tech4good">CSS</SkillsSquare>
                       <SkillsSquare color="tech4good">Javascript</SkillsSquare>
                       <SkillsSquare color="tech4good">React</SkillsSquare>
-                      <SkillsSquare color="tech4good">Tailwind</SkillsSquare>
+                      <SkillsSquare color="tech4good">
+                        Tailwind CSS
+                      </SkillsSquare>
                       <SkillsSquare color="tech4good">
                         Styled Components
                       </SkillsSquare>
@@ -236,7 +238,7 @@ const Timeline = () => {
                         Development of APIs in Lambda functions using Golang.
                       </li>
                       <li className="list-disc">
-                        Development of front-end journeys using JSON, having to
+                        Development of frontend journeys using JSON, having to
                         navigate through a complex engine documentation.
                       </li>
                       <li className="list-disc">

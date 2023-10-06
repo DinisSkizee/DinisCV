@@ -1,19 +1,69 @@
 export const Header = () => {
-  const scrollToBlog = () => {
-    const blogSection = document.getElementById("blog");
-    const rect = blogSection.getBoundingClientRect();
-    scrollToSpot(rect, -200);
+  const scrollToAbout = () => {
+    const aboutSection = document.getElementById("about");
+    const rect = aboutSection.getBoundingClientRect();
+    const offset =
+      window.innerWidth < 1440
+        ? 50
+        : window.innerWidth < 1920
+        ? 150
+        : window.innerWidth < 2560
+        ? 250
+        : 150;
+    scrollToSpot(rect, offset);
   };
   const scrollToResume = () => {
     const resumeSection = document.getElementById("resume");
     const rect = resumeSection.getBoundingClientRect();
-    scrollToSpot(rect, 500);
+    const offset =
+      window.innerWidth < 1440
+        ? 50
+        : window.innerWidth < 1920
+        ? 150
+        : window.innerWidth < 2560
+        ? 250
+        : window.innerWidth < 3840
+        ? 350
+        : 400;
+    scrollToSpot(rect, offset);
   };
+  const scrollToProjects = () => {
+    const projectsSection = document.getElementById("projects");
+    const rect = projectsSection.getBoundingClientRect();
+    const offset =
+      window.innerWidth < 1440
+        ? 50
+        : window.innerWidth < 1920
+        ? 150
+        : window.innerWidth < 2560
+        ? 250
+        : window.innerWidth < 3840
+        ? 350
+        : 400;
+    scrollToSpot(rect, offset);
+  };
+  const scrollToContact = () => {
+    const contactSection = document.getElementById("contact");
+    const rect = contactSection.getBoundingClientRect();
+    const offset =
+      window.innerWidth < 1440
+        ? 50
+        : window.innerWidth < 1920
+        ? 150
+        : window.innerWidth < 2560
+        ? 250
+        : window.innerWidth < 3840
+        ? 350
+        : 400;
+    scrollToSpot(rect, offset);
+  };
+
   const scrollToSpot = (rect, off) => {
     const scrollTop = window.scrollY || document.documentElement.scrollTop;
     const offsetTop = rect.top + scrollTop + off;
     window.scrollTo({ top: offsetTop, behavior: "smooth" });
   };
+
   return (
     <div className="flex w-full justify-between px-5 py-9 fixed bg-bgBlue z-40 lg:px-12 items-center">
       <div
@@ -30,15 +80,18 @@ export const Header = () => {
         <span className="font-extrabold group-hover:drop-shadow-lgDrop">{`</>`}</span>
       </div>
       <div className="lg:justify-center gap-4 hidden lg:flex lg:text-lg lg:text-white select-none cursor-pointer">
-        <div className="hover:text-greeny" onClick={scrollToBlog}>
+        <div className="hover:text-greeny" onClick={scrollToAbout}>
           .about()
         </div>
         <div className="hover:text-greeny" onClick={scrollToResume}>
           .resume()
         </div>
-        <div className="hover:text-greeny">.projects()</div>
-        <div className="hover:text-greeny">.contact()</div>
-        <div className="hover:text-greeny">.blog()</div>
+        <div className="hover:text-greeny" onClick={scrollToProjects}>
+          .projects()
+        </div>
+        <div className="hover:text-greeny" onClick={scrollToContact}>
+          .contact()
+        </div>
       </div>
       <div className="flex cursor-pointer items-center">
         <svg

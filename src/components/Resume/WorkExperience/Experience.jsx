@@ -1,4 +1,4 @@
-import { SkillsSquare } from "../SkillsSquare";
+import { SkillsSquare } from "../../Global/SkillsSquare";
 
 const Experience = () => {
   return (
@@ -83,13 +83,13 @@ const Experience = () => {
               Vite
             </SkillsSquare>
             <SkillsSquare color="bgBlue" work={true}>
-              Tailwind
+              Tailwind CSS
             </SkillsSquare>
             <SkillsSquare color="bgBlue" work={true}>
               Material UI
             </SkillsSquare>
             <SkillsSquare color="bgBlue" work={true}>
-              Styled-Components
+              Styled Components
             </SkillsSquare>
             <SkillsSquare color="bgBlue" work={true}>
               Leadership
@@ -123,7 +123,7 @@ const Experience = () => {
               Took ownership of a substantial product, set up the GitHub repo,
               implemented GitHub Actions, created AWS CDK code using typescript
               for a lambda function, and developed necessary APIs, created the
-              front-end journeys and necessary backend logic.
+              frontend journeys and necessary backend logic.
             </p>
           </div>
           <div className="mt-2 flex flex-wrap gap-1">

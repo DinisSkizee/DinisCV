@@ -1,5 +1,5 @@
 import Skills from "./Skills/Skills";
-import SubTitle from "../SubTitle";
+import SubTitle from "../../Global/SubTitle";
 import ExperienceEducation from "./ExperienceEducation/ExperienceEducation";
 
 const WorkExperience = () => {

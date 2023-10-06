@@ -1,4 +1,4 @@
-import { SkillsSquare } from "../../SkillsSquare";
+import { SkillsSquare } from "../../../Global/SkillsSquare";
 
 const Skills = () => {
   return (
@@ -23,13 +23,25 @@ const Skills = () => {
               React
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
-              Tailwind
+              Tailwind CSS
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Google Charts
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Stripe
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
               Material UI
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
-              Styled-Components
+              Tailwind Styled Components
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Styled Components
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              T3 Stack
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
               Next.js
@@ -63,6 +75,9 @@ const Skills = () => {
               C#
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
+              .NET
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
               Python
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
@@ -70,6 +85,12 @@ const Skills = () => {
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
               Express
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              GraphQL
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              GraphQL Codegen
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
               MySQL
@@ -113,6 +134,9 @@ const Skills = () => {
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
               Docker
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Vercel
             </SkillsSquare>
           </div>
         </div>

@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       dropShadow: {
-        strDrop: "2px 2px 2px rgba(0, 0, 0, .5)",
+        strDrop: "2px 2px 2px rgba(0, 0, 0, .8)",
         lgDrop: "0px 1px 1px rgba(255, 255, 255, .8)",
         moonDrop: "0px 2px 2px rgba(6, 214, 160, .8)",
       },
@@ -12,6 +12,7 @@ export default {
         greeny: "#06D6A0",
         greeny50: "#06D69E80",
         bgBlue: "#15141B",
+        bgLessBlue: "#2b2a32",
         bgDarkBlue: "#101116",
         graywhite: "#9A9A9D",
         gold: "#FFD166",

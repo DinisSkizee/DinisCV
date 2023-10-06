@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import { PText } from "../components/AboutMe/PText";
 import { AboutWhat } from "../components/AboutMe/AboutWhat";
+import MainTitle from "../components/Global/MainTitle";
+import MainComponent from "../components/Global/MainComponent";
 
 export const AboutMe = () => {
   const [scrollHeight, setScrollHeight] = useState(0);
@@ -29,25 +31,22 @@ export const AboutMe = () => {
   }, []);
 
   return (
-    <div className="bg-bgBlue pt-[35%] md:text-lg">
-      {/* Title */}
-      <div id="blog" className="w-full flex justify-center">
-        <h1 className="text-white text-5xl">
-          {`.about(`}
-          <span className="text-greeny">{`"me"`}</span>
-          {`)`}
-        </h1>
-      </div>
+    <MainComponent id="about">
+      <MainTitle>
+        {`.about(`}
+        <span className="text-greeny -mt-2">{`"me"`}</span>
+        {`)`}
+      </MainTitle>
 
       {/* TEXT */}
-      <div className="text-graywhite px-6 text-justify mt-[5rem] flex flex-col gap-4 md:px-12 lg:px-[18%]">
-        <AboutWhat start={"true"} text="the start" />
+      <div className="text-graywhite text-justify mt-[5rem] flex flex-col gap-4">
+        <AboutWhat start={"true"}>the start</AboutWhat>
         <PText width={windowWidth} height={scrollHeight} number={1}>
           I have always had a strong affinity for technology, I have had a
           computer since I can remember, grown being a competitive gamer
           participating in multiple online/lan tournaments.
         </PText>
-        <AboutWhat text="university" />
+        <AboutWhat>university</AboutWhat>
         <PText width={windowWidth} height={scrollHeight} number={2}>
           Fast-forward a few years, moved out of my country at 17 to study in
           the UK, completed a{" "}
@@ -65,7 +64,7 @@ export const AboutMe = () => {
           using React, Typescript, Firebase, Redux and Stripe.
         </PText>
 
-        <AboutWhat text="accenture" />
+        <AboutWhat>accenture</AboutWhat>
         <PText width={windowWidth} height={scrollHeight} number={4}>
           <span className="text-greeny">
             And my career started at Accenture...
@@ -76,7 +75,7 @@ export const AboutMe = () => {
           <br />
         </PText>
 
-        <AboutWhat text="accenture/tech4good" />
+        <AboutWhat>accenture/tech4good</AboutWhat>
         <PText width={windowWidth} height={scrollHeight} number={5}>
           Right after that I quickly got involved in a Tech4Good charity
           project, where I had the opportunity to step up and{" "}
@@ -88,7 +87,7 @@ export const AboutMe = () => {
           Senior Managers.
         </PText>
 
-        <AboutWhat text="accenture/first project" />
+        <AboutWhat>accenture/first project</AboutWhat>
         <PText width={windowWidth} height={scrollHeight} number={6}>
           While still on the Tech4Good project I joined my first{" "}
           <span className="italic">&quot;real&quot;</span> project, with devs
@@ -108,7 +107,7 @@ export const AboutMe = () => {
           </span>
         </PText>
 
-        <AboutWhat text="accenture/project/initiatives" />
+        <AboutWhat>accenture/project/initiatives</AboutWhat>
         <PText width={windowWidth} height={scrollHeight} number={7}>
           <span className="text-greeny">
             Co-created the People Champions group,
@@ -125,7 +124,7 @@ export const AboutMe = () => {
           idea based the few technologies they unknowingly selected beforehand.
         </PText>
 
-        <AboutWhat text="accenture/project/technologies" />
+        <AboutWhat>accenture/project/technologies</AboutWhat>
         <PText width={windowWidth} height={scrollHeight} number={8}>
           During the project{" "}
           <span className="text-greeny">I handled various technical tasks</span>{" "}
@@ -144,7 +143,7 @@ export const AboutMe = () => {
           <span> and </span>
           <span className="text-greeny">CloudWatch</span>
           <span> mainly. </span>
-          <span className="text-greeny">Created front-end journeys</span>
+          <span className="text-greeny">Created frontend journeys</span>
           <span> following the design provided, </span>
           <span className="text-greeny">created enablers</span>
           <span> for </span>
@@ -161,7 +160,7 @@ export const AboutMe = () => {
           <span> as there were many cross dependencies.</span>
         </PText>
 
-        <AboutWhat text="accenture/project/leadership" />
+        <AboutWhat>accenture/project/leadership</AboutWhat>
         <PText width={windowWidth} height={scrollHeight} number={9}>
           <span className="text-greeny">
             Took ownership on a substantial product from our team,
@@ -206,7 +205,7 @@ export const AboutMe = () => {
           delivery
         </PText>
 
-        <AboutWhat text="accenture/project/impact" />
+        <AboutWhat>accenture/project/impact</AboutWhat>
         <PText width={windowWidth} height={scrollHeight} number={11}>
           Within such a short amount of time as a Software Engineer, and{" "}
           <span className="text-greeny">
@@ -218,13 +217,13 @@ export const AboutMe = () => {
           <span className="text-greeny">but company wide.</span>{" "}
         </PText>
 
-        <AboutWhat text="accenture/earlyTalentRecordings" />
+        <AboutWhat>accenture/earlyTalentRecordings</AboutWhat>
         <PText width={windowWidth} height={scrollHeight} number={12}>
           Finally... participated in the Recordings of the Accenture Early
           Talent Recruitment, where I shared my experience as a graduate at
           Accenture.
         </PText>
       </div>
-    </div>
+    </MainComponent>
   );
 };

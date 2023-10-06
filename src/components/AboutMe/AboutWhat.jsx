@@ -8,10 +8,10 @@ const TitleAbout = styled.div`
     props.start === "true" ? "0rem !important" : "2rem"};
 `;
 
-export const AboutWhat = ({ text, start }) => {
+export const AboutWhat = ({ children, start }) => {
   return (
     <TitleAbout className="text-[.9rem] lg:text-[1.2rem]" start={start}>
-      {text}
+      {children}
     </TitleAbout>
   );
 };

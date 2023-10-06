@@ -7,31 +7,36 @@ import { Footer } from "./components/Global/Footer";
 import { Header } from "./components/Global/Header";
 import { LeftSider } from "./components/Global/LeftSider";
 import { RightSider } from "./components/Global/RightSider";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
 
 const App = () => {
   const [valid, setValid] = useState(false);
 
   return (
-    <>
+    <div className="bg-bgBlue ">
       {valid ? (
         <>
           <Header />
           <LeftSider />
           <RightSider />
-          {/* FIRST PAGE */}
+
           <MainPage />
 
-          {/* SECOND PAGE */}
           <AboutMe />
 
-          {/* THIRD PAGE */}
           <Resume />
+
+          <Projects />
+
+          <Contact />
+
           <Footer />
         </>
       ) : (
         <PreSite setValid={setValid} />
       )}
-    </>
+    </div>
   );
 };
 
