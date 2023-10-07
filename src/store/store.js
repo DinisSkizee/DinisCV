@@ -1,6 +1,6 @@
 import { create } from "zustand";
 
-export const useStore = create((set) => ({
+export const useSkillsStore = create((set) => ({
   selectedSkills: [],
   setSelectedSkills: (children) =>
     set((state) => {
@@ -26,4 +26,10 @@ export const useStore = create((set) => ({
         }
       }
     }),
+}));
+
+export const useThemeStore = create((set) => ({
+  theme: "dark",
+  toggleTheme: () =>
+    set((state) => ({ theme: state.theme === "dark" ? "light" : "dark" })),
 }));

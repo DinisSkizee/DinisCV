@@ -56,25 +56,6 @@ const Projects = () => {
           url="websocket-coinbase-bitcoin"
         >
           <SkillsSquare color="bgBlue" work={true}>
-            Vite
-          </SkillsSquare>
-          <SkillsSquare color="bgBlue" work={true}>
-            React
-          </SkillsSquare>
-          <SkillsSquare color="bgBlue" work={true}>
-            Google Charts
-          </SkillsSquare>
-          <SkillsSquare color="bgBlue" work={true}>
-            Tailwind CSS
-          </SkillsSquare>
-        </Project>
-
-        <Project
-          name="CrownClothing E-Commerce"
-          description="A full-stack E-Commerce application to sell clothing with end-to-end integration with Stripe for payment processing and Firebase for user authentication and data storage."
-          url="E-Commerce-React"
-        >
-          <SkillsSquare color="bgBlue" work={true}>
             Typescript
           </SkillsSquare>
           <SkillsSquare color="bgBlue" work={true}>
@@ -103,6 +84,37 @@ const Projects = () => {
           </SkillsSquare>
           <SkillsSquare color="bgBlue" work={true}>
             Netlify
+          </SkillsSquare>
+        </Project>
+
+        <Project
+          name="CrownClothing E-Commerce"
+          description="A full-stack E-Commerce application to sell clothing with end-to-end integration with Stripe for payment processing and Firebase for user authentication and data storage."
+          url="E-Commerce-React"
+        >
+          <SkillsSquare color="bgBlue" work={true}>
+            ASP.NET
+          </SkillsSquare>
+          <SkillsSquare color="bgBlue" work={true}>
+            MVC
+          </SkillsSquare>
+          <SkillsSquare color="bgBlue" work={true}>
+            C#
+          </SkillsSquare>
+          <SkillsSquare color="bgBlue" work={true}>
+            .NET
+          </SkillsSquare>
+          <SkillsSquare color="bgBlue" work={true}>
+            HTML
+          </SkillsSquare>
+          <SkillsSquare color="bgBlue" work={true}>
+            CSS
+          </SkillsSquare>
+          <SkillsSquare color="bgBlue" work={true}>
+            Azure
+          </SkillsSquare>
+          <SkillsSquare color="bgBlue" work={true}>
+            SMTP
           </SkillsSquare>
         </Project>
 

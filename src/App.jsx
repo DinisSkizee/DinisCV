@@ -9,12 +9,13 @@ import { LeftSider } from "./components/Global/LeftSider";
 import { RightSider } from "./components/Global/RightSider";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import { useThemeStore } from "./store/store";
 
 const App = () => {
-  const [valid, setValid] = useState(false);
-
+  const [valid, setValid] = useState(true);
+  const { theme } = useThemeStore((state) => state);
   return (
-    <div className="bg-bgBlue ">
+    <div className={`${theme === "dark" ? "bg-bgBlue" : "bg-bgBright"}`}>
       {valid ? (
         <>
           <Header />

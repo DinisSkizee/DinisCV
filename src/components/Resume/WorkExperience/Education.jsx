@@ -1,7 +1,14 @@
+import { useThemeStore } from "../../../store/store";
+
 const Education = () => {
+  const { theme } = useThemeStore((state) => state);
   return (
     <div className="text-graywhite flex flex-col gap-2">
-      <div className="text-white flex flex-col">
+      <div
+        className={`${
+          theme === "dark" ? "text-white" : "text-bgDarkBlue"
+        }flex flex-col`}
+      >
         <div>
           <h2 className="text-gold font-bold">Anglia Ruskin University</h2>
           <h2>BEng Computer Science, Cambridge</h2>

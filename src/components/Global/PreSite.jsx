@@ -1,7 +1,9 @@
 import { useState } from "react";
+import { useThemeStore } from "../../store/store";
 
 const PreSite = ({ setValid }) => {
   const [inputValue, setInputValue] = useState("");
+  const { theme } = useThemeStore((state) => state);
 
   const handleInputChange = (e) => {
     setInputValue(e.target.value);
@@ -10,7 +12,11 @@ const PreSite = ({ setValid }) => {
     }
   };
   return (
-    <div className="w-full h-screen flex flex-col items-center justify-center bg-bgBlue text-white">
+    <div
+      className={`w-full h-screen flex flex-col items-center justify-center text-white ${
+        theme === "dark" ? "bg-bgBlue" : "bg-bgBright"
+      }`}
+    >
       <h1>IN CONSTRUCTION</h1>
       <h1>DINIS SILVA</h1>
       <input

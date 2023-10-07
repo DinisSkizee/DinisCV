@@ -1,9 +1,15 @@
+import { useThemeStore } from "../../../store/store";
 import { SkillsSquare } from "../../Global/SkillsSquare";
 
 const Experience = () => {
+  const { theme } = useThemeStore((state) => state);
   return (
     <div className="text-graywhite flex flex-col gap-2">
-      <div className="text-white flex flex-col">
+      <div
+        className={`${
+          theme === "dark" ? "text-white" : "text-bgDarkBlue"
+        } flex flex-col`}
+      >
         <div>
           <h2 className="text-greeny font-bold">
             Graduate Full-Stack
@@ -184,10 +190,29 @@ const Experience = () => {
         {/* Recognition */}
         <li className="ml-3 list-disc">
           Received recognition from the{" "}
-          <span className="text-white">Delivery Lead</span>,{" "}
-          <span className="text-white">Product Owner</span>,{" "}
-          <span className="text-white">Scrum Master</span>{" "}
-          <span className="text-white">Tech Lead</span> and the entire team.
+          <span
+            className={`${theme === "dark" ? "text-white" : "text-bgDarkBlue"}`}
+          >
+            Delivery Lead
+          </span>
+          ,{" "}
+          <span
+            className={`${theme === "dark" ? "text-white" : "text-bgDarkBlue"}`}
+          >
+            Product Owner
+          </span>
+          ,{" "}
+          <span
+            className={`${theme === "dark" ? "text-white" : "text-bgDarkBlue"}`}
+          >
+            Scrum Master
+          </span>{" "}
+          <span
+            className={`${theme === "dark" ? "text-white" : "text-bgDarkBlue"}`}
+          >
+            Tech Lead
+          </span>{" "}
+          and the entire team.
           <div className="mt-2 flex flex-wrap gap-1">
             <SkillsSquare color="bgBlue" work={true}>
               Star of the Month

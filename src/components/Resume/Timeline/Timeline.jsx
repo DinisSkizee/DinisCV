@@ -1,29 +1,47 @@
 import SubTitle from "../../Global/SubTitle";
-import { SkillsSquare } from "../../Global/SkillsSquare";
 import { Popover } from "@headlessui/react";
+import { useThemeStore } from "../../../store/store";
+import { SkillsSquare } from "../../Global/SkillsSquare";
 
 const Timeline = () => {
+  const { theme } = useThemeStore((state) => state);
   return (
     <>
       <div>
         <SubTitle>{`.timeline()`}</SubTitle>
 
         {/* Resume */}
-        <div className="bg-bgDarkBlue mt-[2rem] w-full h-[20rem] grid grid-cols-16 grid-rows-15 p-4 pb-6 md:pb-8">
+        <div
+          className={`${
+            theme === "dark" ? "bg-bgDarkBlue" : "bg-inactiveBlue"
+          } mt-[2rem] w-full h-[20rem] grid grid-cols-16 grid-rows-15 p-4 pb-6 md:pb-8`}
+        >
           {/* ARU */}
-          <Popover className="row-start-1 row-end-3 col-start-1 col-end-7 text-white text-[.7rem] md:text-[.9rem] md:col-end-4 md:leading-5">
+          <Popover
+            className={`${
+              theme === "dark" ? "text-white" : "text-bgDarkBlue"
+            } row-start-1 row-end-3 col-start-1 col-end-7 text-[.7rem] md:text-[.9rem] md:col-end-4 md:leading-5`}
+          >
             {({ open }) => (
               <>
                 <Popover.Button className="focus:outline-none text-left">
                   Anglia Ruskin University
                 </Popover.Button>
                 <Popover.Panel
-                  className={`${
-                    open ? "opacity-100" : "opacity-0"
-                  } absolute z-10 bg-bgBlue p-3 text-xs text-white mt-2 mr-9 shadow-2xl md:text-md md:mr-16 lg:mr-[19.5%] xl:mr-[19%] `}
+                  className={`${open ? "opacity-100" : "opacity-0"} ${
+                    theme === "dark"
+                      ? "bg-bgBlue text-white"
+                      : "bg-bgBright text-bgDarkBlue"
+                  } absolute z-10 p-3 text-xs mt-2 mr-9 shadow-2xl md:text-md md:mr-16 lg:mr-[19.5%] xl:mr-[19%] `}
                 >
                   <div className="flex flex-col gap-1">
-                    <h1 className="text-gold">Anglia Ruskin University</h1>
+                    <h1
+                      className={`${
+                        theme !== "dark" ? "font-extrabold" : ""
+                      } text-gold`}
+                    >
+                      Anglia Ruskin University
+                    </h1>
                     <h2 className="font-medium">BEng Computer Science</h2>
                     <p className="text-graywhite font-bold">
                       Sep 2018 - Jun 2021
@@ -53,7 +71,11 @@ const Timeline = () => {
           </Popover>
 
           {/* Accenture */}
-          <Popover className="row-start-4 col-start-6 col-end-15 text-white text-[.7rem] md:text-[.9rem] md:row-start-3 md:leading-6 md:col-start-5 md:col-end-17">
+          <Popover
+            className={`${
+              theme === "dark" ? "text-white" : "text-bgDarkBlue"
+            } row-start-4 col-start-6 col-end-15 text-[.7rem] md:text-[.9rem] md:row-start-3 md:leading-6 md:col-start-5 md:col-end-17`}
+          >
             {({ open }) => (
               <>
                 <Popover.Button className="focus:outline-none text-left flex flex-col">
@@ -61,9 +83,11 @@ const Timeline = () => {
                   <span className="font-bold md:-mt-2">Accenture UK</span>
                 </Popover.Button>
                 <Popover.Panel
-                  className={`${
-                    open ? "opacity-100" : "opacity-0"
-                  } absolute z-10 bg-bgBlue p-3 text-xs text-white mt-2 mr-9 left-9 shadow-2xl md:text-md md:mr-16 md:ml-6 lg:left-[17%] lg:right-[13.3%] md:left-10 xl:right-[14.5%] xl:left-[17.3%] 2xl:left-[33.1%] 2xl:right-[17.5%]`}
+                  className={`${open ? "opacity-100" : "opacity-0"} ${
+                    theme === "dark"
+                      ? "bg-bgBlue text-white"
+                      : "bg-bgBright text-bgDarkBlue"
+                  } absolute z-10 p-3 text-xs mt-2 mr-9 left-9 shadow-2xl md:text-md md:mr-16 md:ml-6 lg:left-[17%] lg:right-[13.3%] md:left-10 xl:right-[14.5%] xl:left-[17.3%] 2xl:left-[33.1%] 2xl:right-[17.5%]`}
                 >
                   <div className="flex flex-col gap-1">
                     <h2 className="font-medium text-accenturePurple">
@@ -122,16 +146,22 @@ const Timeline = () => {
           </Popover>
 
           {/* Full-Stack Bootcamp */}
-          <Popover className="row-start-7 col-start-6 col-end-10 text-white text-[.7rem] md:text-[.9rem] md:leading-4 md:row-start-6 md:col-start-5 md:col-end-9 md:mt-1">
+          <Popover
+            className={`${
+              theme === "dark" ? "text-white" : "text-bgDarkBlue"
+            } row-start-7 col-start-6 col-end-10 text-[.7rem] md:text-[.9rem] md:leading-4 md:row-start-6 md:col-start-5 md:col-end-9 md:mt-1`}
+          >
             {({ open }) => (
               <>
                 <Popover.Button className="focus:outline-none text-left md:mb-1">
                   Full-Stack Bootcamp
                 </Popover.Button>
                 <Popover.Panel
-                  className={`${
-                    open ? "opacity-100" : "opacity-0"
-                  } absolute z-10 bg-bgBlue p-3 text-xs text-white mt-2 mr-9 left-9 shadow-2xl md:text-md md:mr-16 md:ml-6 lg:left-[17%] lg:right-[13.3%] md:left-10 xl:right-[14.5%] xl:left-[17.3%] 2xl:left-[33.1%] 2xl:right-[17.5%]`}
+                  className={`${open ? "opacity-100" : "opacity-0"} ${
+                    theme === "dark"
+                      ? "bg-bgBlue text-white"
+                      : "bg-bgBright text-bgDarkBlue"
+                  } absolute z-10 p-3 text-xs mt-2 mr-9 left-9 shadow-2xl md:text-md md:mr-16 md:ml-6 lg:left-[17%] lg:right-[13.3%] md:left-10 xl:right-[14.5%] xl:left-[17.3%] 2xl:left-[33.1%] 2xl:right-[17.5%]`}
                 >
                   <div className="flex flex-col gap-1">
                     <h1 className="font-medium text-waveBlue">
@@ -168,16 +198,22 @@ const Timeline = () => {
           </Popover>
 
           {/* Tech4Good */}
-          <Popover className="row-start-10 col-start-9 col-end-12 text-white text-[.7rem] md:text-[.9rem] md:row-start-9 md:col-end-11">
+          <Popover
+            className={`${
+              theme === "dark" ? "text-white" : "text-bgDarkBlue"
+            } row-start-10 col-start-9 col-end-12 text-[.7rem] md:text-[.9rem] md:row-start-9 md:col-end-11`}
+          >
             {({ open }) => (
               <>
                 <Popover.Button className="focus:outline-none text-left">
                   Tech4Good
                 </Popover.Button>
                 <Popover.Panel
-                  className={`${
-                    open ? "opacity-100" : "opacity-0"
-                  } absolute z-10 bg-bgBlue p-3 text-xs text-white mt-2 mr-9 left-9 shadow-2xl md:text-md md:mr-16 md:ml-6 lg:left-[17%] lg:right-[13.3%] md:left-10 xl:right-[14.5%] xl:left-[17.3%] 2xl:left-[48.7%] 2xl:right-[17.5%]`}
+                  className={`${open ? "opacity-100" : "opacity-0"} ${
+                    theme === "dark"
+                      ? "bg-bgBlue text-white"
+                      : "bg-bgBright text-bgDarkBlue"
+                  } absolute z-10 p-3 text-xs mt-2 mr-9 left-9 shadow-2xl md:text-md md:mr-16 md:ml-6 lg:left-[17%] lg:right-[13.3%] md:left-10 xl:right-[14.5%] xl:left-[17.3%] 2xl:left-[48.7%] 2xl:right-[17.5%]`}
                 >
                   <div className="flex flex-col gap-1">
                     <h1 className="font-medium text-tech4good">
@@ -214,16 +250,22 @@ const Timeline = () => {
           </Popover>
 
           {/* Major UK Postal Client */}
-          <Popover className="mt-4 row-start-11 col-start-10 col-end-17 text-white text-[.7rem] md:text-[.9rem]">
+          <Popover
+            className={`${
+              theme === "dark" ? "text-white" : "text-bgDarkBlue"
+            } mt-4 row-start-11 col-start-10 col-end-17 text-[.7rem] md:text-[.9rem]`}
+          >
             {({ open }) => (
               <>
                 <Popover.Button className="focus:outline-none text-left">
                   Major UK Postal Client
                 </Popover.Button>
                 <Popover.Panel
-                  className={`${
-                    open ? "opacity-100" : "opacity-0"
-                  } absolute z-10 bg-bgBlue p-3 text-xs text-white mt-2 mr-9 left-9 shadow-2xl md:text-md md:mr-16 md:ml-6 lg:left-[17%] lg:right-[13.3%] md:left-10 xl:right-[14.5%] xl:left-[17.3%] 2xl:left-[52.6%] 2xl:right-[17.5%]`}
+                  className={`${open ? "opacity-100" : "opacity-0"} ${
+                    theme === "dark"
+                      ? "bg-bgBlue text-white"
+                      : "bg-bgBright text-bgDarkBlue"
+                  } absolute z-10 p-3 text-xs mt-2 mr-9 left-9 shadow-2xl md:text-md md:mr-16 md:ml-6 lg:left-[17%] lg:right-[13.3%] md:left-10 xl:right-[14.5%] xl:left-[17.3%] 2xl:left-[52.6%] 2xl:right-[17.5%]`}
                 >
                   <div className="flex flex-col gap-1">
                     <h1 className="font-medium text-wildRed">
@@ -289,30 +331,66 @@ const Timeline = () => {
           </Popover>
 
           {/* DateLine */}
-          <div className="row-start-14 row-end-15 col-start-1 col-end-17 border-t-white border-t-4" />
+          <div
+            className={`${
+              theme === "dark" ? "border-t-white" : "border-t-inactiveContrast"
+            } row-start-14 row-end-15 col-start-1 col-end-17 border-t-4`}
+          />
 
-          <div className="select-none text-white mt-2 row-start-14 row-end-15 col-start-1 col-end-3">
+          <div
+            className={`${
+              theme === "dark" ? "text-white" : "text-bgDarkBlue"
+            } select-none mt-2 row-start-14 row-end-15 col-start-1 col-end-3`}
+          >
             2018
           </div>
-          <div className="select-none text-white mt-2 row-start-14 row-end-15 col-start-3">
+          <div
+            className={`${
+              theme === "dark" ? "text-white" : "text-bgDarkBlue"
+            } select-none mt-2 row-start-14 row-end-15 col-start-3`}
+          >
             2021
           </div>
-          <div className="select-none text-white mt-2 row-start-14 row-end-15 col-start-5">
+          <div
+            className={`${
+              theme === "dark" ? "text-white" : "text-bgDarkBlue"
+            } select-none mt-2 row-start-14 row-end-15 col-start-5`}
+          >
             2022 Dec
           </div>
-          <div className="select-none text-white mt-2 row-start-14 row-end-15 col-start-7">
+          <div
+            className={`${
+              theme === "dark" ? "text-white" : "text-bgDarkBlue"
+            } select-none mt-2 row-start-14 row-end-15 col-start-7`}
+          >
             Jan
           </div>
-          <div className="select-none text-white mt-2 row-start-14 row-end-15 col-start-9">
+          <div
+            className={`${
+              theme === "dark" ? "text-white" : "text-bgDarkBlue"
+            } select-none mt-2 row-start-14 row-end-15 col-start-9`}
+          >
             Mar
           </div>
-          <div className="select-none text-white mt-2 row-start-14 row-end-15 col-start-11">
+          <div
+            className={`${
+              theme === "dark" ? "text-white" : "text-bgDarkBlue"
+            } select-none mt-2 row-start-14 row-end-15 col-start-11`}
+          >
             May
           </div>
-          <div className="select-none text-white mt-2 row-start-14 row-end-15 col-start-13">
+          <div
+            className={`${
+              theme === "dark" ? "text-white" : "text-bgDarkBlue"
+            } select-none mt-2 row-start-14 row-end-15 col-start-13`}
+          >
             Jul
           </div>
-          <div className="select-none text-white mt-2 row-start-14 row-end-15 col-start-15">
+          <div
+            className={`${
+              theme === "dark" ? "text-white" : "text-bgDarkBlue"
+            } select-none mt-2 row-start-14 row-end-15 col-start-15`}
+          >
             Oct
           </div>
         </div>

@@ -10,7 +10,13 @@ export default {
       },
       colors: {
         greeny: "#06D6A0",
+        reedy: "#C14953",
         greeny50: "#06D69E80",
+        bgBright: "#FFFBF4",
+        bgBrightBlue: "#AEDBF0",
+        inactiveBlue: "#d5e6ed7b",
+        inactiveBluer: "#d5e6ed",
+        inactiveContrast: "#576066",
         bgBlue: "#15141B",
         bgLessBlue: "#2b2a32",
         bgDarkBlue: "#101116",

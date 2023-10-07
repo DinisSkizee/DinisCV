@@ -1,8 +1,14 @@
+import { useThemeStore } from "../../../../store/store";
 import { SkillsSquare } from "../../../Global/SkillsSquare";
 
 const Skills = () => {
+  const { theme } = useThemeStore((state) => state);
   return (
-    <div className="mt-8 w-fit text-white">
+    <div
+      className={`${
+        theme === "dark" ? "text-white" : "text-bgDarkBlue"
+      } mt-8 w-fit`}
+    >
       <h1 className="font-semibold text-xl">Skills</h1>
       <div className="border-b-white border-[1px] my-4" />
       <div className="text-sm flex flex-col gap-4">

@@ -2,8 +2,10 @@ import { useState } from "react";
 import Education from "../Education";
 import Experience from "../Experience";
 import StateSelection from "./StateSelection";
+import { useThemeStore } from "../../../../store/store";
 
 const ExperienceEducation = () => {
+  const { theme } = useThemeStore((state) => state);
   const [isExperience, setIsExperience] = useState(true);
 
   const handleSelection = (state) => {
@@ -11,7 +13,11 @@ const ExperienceEducation = () => {
   };
   return (
     <div className="flex flex-col">
-      <div className="bg-bgDarkBlue mt-[2rem] w-full p-4 min-h-[300px]">
+      <div
+        className={`${
+          theme === "dark" ? "bg-bgDarkBlue" : "bg-inactiveBlue"
+        } mt-[2rem] w-full p-4 min-h-[300px]`}
+      >
         {/* STATES */}
         <div className="flex mb-6">
           <StateSelection
