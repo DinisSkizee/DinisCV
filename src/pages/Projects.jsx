@@ -56,34 +56,28 @@ const Projects = () => {
           url="websocket-coinbase-bitcoin"
         >
           <SkillsSquare color="bgBlue" work={true}>
-            Typescript
+            Javascript
           </SkillsSquare>
           <SkillsSquare color="bgBlue" work={true}>
             React
           </SkillsSquare>
           <SkillsSquare color="bgBlue" work={true}>
-            Redux
+            Vite
           </SkillsSquare>
           <SkillsSquare color="bgBlue" work={true}>
-            Firebase
+            Coinbase WebSocket
           </SkillsSquare>
           <SkillsSquare color="bgBlue" work={true}>
-            Stripe
-          </SkillsSquare>
-          <SkillsSquare color="bgBlue" work={true}>
-            GraphQL
+            Google Charts
           </SkillsSquare>
           <SkillsSquare color="bgBlue" work={true}>
             HTML
           </SkillsSquare>
           <SkillsSquare color="bgBlue" work={true}>
-            CSS
+            Tailwind CSS
           </SkillsSquare>
           <SkillsSquare color="bgBlue" work={true}>
-            Styled Components
-          </SkillsSquare>
-          <SkillsSquare color="bgBlue" work={true}>
-            Netlify
+            Vercel
           </SkillsSquare>
         </Project>
 
@@ -93,28 +87,28 @@ const Projects = () => {
           url="E-Commerce-React"
         >
           <SkillsSquare color="bgBlue" work={true}>
-            ASP.NET
+            Javascript
           </SkillsSquare>
           <SkillsSquare color="bgBlue" work={true}>
-            MVC
+            React
           </SkillsSquare>
           <SkillsSquare color="bgBlue" work={true}>
-            C#
-          </SkillsSquare>
-          <SkillsSquare color="bgBlue" work={true}>
-            .NET
+            GraphQL (Apollo)
           </SkillsSquare>
           <SkillsSquare color="bgBlue" work={true}>
             HTML
           </SkillsSquare>
           <SkillsSquare color="bgBlue" work={true}>
-            CSS
+            Styled Components
           </SkillsSquare>
           <SkillsSquare color="bgBlue" work={true}>
-            Azure
+            Sass
           </SkillsSquare>
           <SkillsSquare color="bgBlue" work={true}>
-            SMTP
+            Netlify
+          </SkillsSquare>
+          <SkillsSquare color="bgBlue" work={true}>
+            Firebase
           </SkillsSquare>
         </Project>
 

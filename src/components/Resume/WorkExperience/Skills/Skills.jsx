@@ -23,6 +23,9 @@ const Skills = () => {
               CSS
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
+              Sass
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
               Javascript
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
@@ -143,6 +146,9 @@ const Skills = () => {
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
               Vercel
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Netlify
             </SkillsSquare>
           </div>
         </div>
