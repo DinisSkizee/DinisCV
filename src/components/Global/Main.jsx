@@ -38,9 +38,6 @@ export const Main = () => {
           I&apos;m also a car and motorsports enthusiast, and I can&apos;t spend
           a day without music!
         </div>
-        <button className="p-3 bg-greeny !rounded-lg w-fit md:text-xl md:p-4 cursor-pointer">
-          Redirect to CV
-        </button>
       </div>
     </div>
   );

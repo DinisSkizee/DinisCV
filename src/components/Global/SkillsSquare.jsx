@@ -36,11 +36,11 @@ export const SkillsSquare = ({ children, color, work }) => {
     <div
       className={`${bgColor} select-none py-1 px-2 rounded-lg flex items-center shadow-2xl w-fit ${
         work
-          ? `py-1.5 text-xs ${
+          ? `py-1.5 text-xs hover:bg-greeny hover:font-medium ${
               theme === "dark"
                 ? "text-white hover:bg-greeny hover:text-bgDarkBlue"
                 : "hover:bg-bgBrightBlue font-semibold"
-            } hover:bg-greeny hover:font-medium`
+            }`
           : ""
       } ${isHighlighted ? "!bg-greeny !text-bgDarkBlue font-semibold" : ""}`}
       onClick={work ? skillsHandler : null}

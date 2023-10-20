@@ -8,7 +8,7 @@ export const RightSider = () => {
   return (
     <div className="flex-col items-center hidden w-4 gap-4 lg:flex fixed bottom-0 lg:right-12 2xl:right-24">
       <div className="flex flex-col gap-4 justify-end">
-        <a href="https://www.linkedin.com/in/dinissilvase/" target="blank">
+        <a href="https://github.com/DinisSkizee/" target="blank">
           <FontAwesomeIcon
             className={`${
               theme === "dark" ? "text-white" : "text-bgDarkBlue"
@@ -16,7 +16,7 @@ export const RightSider = () => {
             icon={faGithub}
           />
         </a>
-        <a href="https://github.com/DinisSkizee/" target="blank">
+        <a href="https://www.linkedin.com/in/dinissilvase/" target="blank">
           <FontAwesomeIcon
             className={`${
               theme === "dark" ? "text-white" : "text-bgDarkBlue"
