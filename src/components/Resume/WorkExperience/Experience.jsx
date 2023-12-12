@@ -117,9 +117,9 @@ const Experience = () => {
 
         {/* Major Client */}
         <li className="ml-3 list-disc">
-          Joined a major project for a UK client, proactively contributed to the
-          development, took ownership of a product and created initiatives and
-          activities within the project.
+          Joined a project for a UK postal services client, proactively
+          contributed to the development, took ownership of a product and
+          created initiatives and activities within the project.
           <div className="mt-2 flex flex-col gap-2">
             <p>
               Co-created the People Champions group to recognize project members
@@ -302,6 +302,7 @@ const Experience = () => {
           </div>
         </li>
 
+        {/* Early Talent Recordings */}
         <li className="ml-3 list-disc">
           Participated in the Recordings of the Accenture Early Talent 2024
           Recruitment program where I shared my experiences as a graduate at
@@ -315,6 +316,62 @@ const Experience = () => {
             </SkillsSquare>
             <SkillsSquare color="bgBlue" work={true}>
               Initiative
+            </SkillsSquare>
+          </div>
+        </li>
+
+        {/* UK Energy & Gas Client */}
+        <li className="ml-3 list-disc">
+          As a Full-Stack Developer for a UK Energy & Gas Client, I conducted a
+          performance audit and implemented optimizations, balancing these tasks
+          with ongoing project development.
+          <div className="mt-2 flex flex-col gap-2">
+            <p>
+              Led a comprehensive audit, significantly enhancing application
+              performance by reducing load times by 84% on key pages.
+            </p>
+            <p>
+              Presented a detailed implementation strategy to the client,
+              documenting the process and results effectively.
+            </p>
+            <p>
+              Actively contributed to other project releases, suggesting and
+              implementing best practices for project efficiency.
+            </p>
+          </div>
+          <div className="mt-2 flex flex-wrap gap-1">
+            <SkillsSquare color="bgGreen" work={true}>
+              Typescript
+            </SkillsSquare>
+            <SkillsSquare color="bgGreen" work={true}>
+              Node.js
+            </SkillsSquare>
+            <SkillsSquare color="bgGreen" work={true}>
+              React
+            </SkillsSquare>
+            <SkillsSquare color="bgGreen" work={true}>
+              Redux
+            </SkillsSquare>
+            <SkillsSquare color="bgGreen" work={true}>
+              RxJs
+            </SkillsSquare>
+            <SkillsSquare color="bgGreen" work={true}>
+              Scss
+            </SkillsSquare>
+            <SkillsSquare color="bgGreen" work={true}>
+              Performance Optimization
+            </SkillsSquare>
+            <SkillsSquare color="bgGreen" work={true}>
+              Client Presentation
+            </SkillsSquare>
+            <SkillsSquare color="bgGreen" work={true}>
+              Project Documentation
+            </SkillsSquare>
+            <SkillsSquare color="bgGreen" work={true}>
+              Proactivity
+            </SkillsSquare>
+            <SkillsSquare color="bgGreen" work={true}>
+              Problem Solving
             </SkillsSquare>
           </div>
         </li>
