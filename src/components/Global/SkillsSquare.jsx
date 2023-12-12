@@ -1,6 +1,7 @@
 import { useSkillsStore, useThemeStore } from "../../store/store";
 
 const colors = {
+  greeny: "bg-greeny",
   gold30: "bg-gold30",
   bgBlue: "bg-bgBlue",
   bgBright: "bg-bgBright",

@@ -8,7 +8,7 @@ export const AboutMe = () => {
     <MainComponent id="about">
       <MainTitle>
         {`.about(`}
-        <span className="text-greeny -mt-2">{`"me"`}</span>
+        <span className="text-greeny -mt-2">me</span>
         {`)`}
       </MainTitle>
 
@@ -61,7 +61,7 @@ export const AboutMe = () => {
           Senior Managers.
         </PText>
 
-        <AboutWhat>accenture/first project</AboutWhat>
+        <AboutWhat>accenture/first_client</AboutWhat>
         <PText number={6}>
           While still on the Tech4Good project I joined my first{" "}
           <span className="italic">&quot;real&quot;</span> project, with devs
@@ -81,7 +81,7 @@ export const AboutMe = () => {
           </span>
         </PText>
 
-        <AboutWhat>accenture/project/initiatives</AboutWhat>
+        <AboutWhat>accenture/first_client/initiatives</AboutWhat>
         <PText number={7}>
           <span className="text-greeny">
             Co-created the People Champions group,
@@ -98,7 +98,7 @@ export const AboutMe = () => {
           idea based the few technologies they unknowingly selected beforehand.
         </PText>
 
-        <AboutWhat>accenture/project/technologies</AboutWhat>
+        <AboutWhat>accenture/first_client/technologies</AboutWhat>
         <PText number={8}>
           During the project{" "}
           <span className="text-greeny">I handled various technical tasks</span>{" "}
@@ -134,7 +134,7 @@ export const AboutMe = () => {
           <span> as there were many cross dependencies.</span>
         </PText>
 
-        <AboutWhat>accenture/project/leadership</AboutWhat>
+        <AboutWhat>accenture/first_client/leadership</AboutWhat>
         <PText number={9}>
           <span className="text-greeny">
             Took ownership on a substantial product from our team,
@@ -179,7 +179,7 @@ export const AboutMe = () => {
           delivery
         </PText>
 
-        <AboutWhat>accenture/project/impact</AboutWhat>
+        <AboutWhat>accenture/first_client/impact</AboutWhat>
         <PText number={11}>
           Within such a short amount of time as a Software Engineer, and{" "}
           <span className="text-greeny">
@@ -196,6 +196,39 @@ export const AboutMe = () => {
           Finally... participated in the Recordings of the Accenture Early
           Talent Recruitment, where I shared my experience as a graduate at
           Accenture.
+        </PText>
+
+        <AboutWhat>accenture/second_client</AboutWhat>
+        <PText number={13}>
+          Joined a project as a Full-Stack Engineer for a UK{" "}
+          <span className="text-gold">Energy & Gas</span> Client, using{" "}
+          <span className="text-greeny">Typescript</span>,{" "}
+          <span className="text-greeny">Node.js</span>,{" "}
+          <span className="text-greeny">React</span>,{" "}
+          <span className="text-greeny">Redux</span>,{" "}
+          <span className="text-greeny">RxJs</span>, and{" "}
+          <span className="text-greeny">Scss</span> to develop a large customer
+          service application. This role involved balancing a range of
+          responsibilities, from a performance improvement audit to strategic
+          client interactions, and continuously contributing to the project
+          release.
+        </PText>
+
+        <AboutWhat>accenture/second_client/audit</AboutWhat>
+        <PText number={14}>
+          Independently conducted a comprehensive performance audit of the
+          application, leading to significant performance enhancements. My
+          efforts <span className="text-greeny">resulted in an</span>{" "}
+          <span className="text-gold">84%</span>{" "}
+          <span className="text-greeny">reduction in load times</span> for the
+          most accessed pages,{" "}
+          <span className="text-greeny">
+            translating into a yearly cost gain exceeding
+          </span>{" "}
+          <span className="text-gold">£100k</span>. I not only strategized and
+          executed the audit but also presented the findings and implementation
+          strategies to the client, followed by a detailed report of the process
+          and outcomes.
         </PText>
       </div>
     </MainComponent>
