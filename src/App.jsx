@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Resume from "./pages/Resume";
-import { AboutMe } from "./pages/AboutMe";
 import { MainPage } from "./pages/MainPage";
 import PreSite from "./components/Global/PreSite";
 import { Footer } from "./components/Global/Footer";
@@ -23,8 +22,6 @@ const App = () => {
           <RightSider />
 
           <MainPage />
-
-          <AboutMe />
 
           <Resume />
 

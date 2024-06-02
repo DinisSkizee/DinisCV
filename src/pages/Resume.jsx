@@ -6,7 +6,11 @@ import WorkExperience from "../components/Resume/WorkExperience/WorkExperience";
 const Resume = () => {
   return (
     <MainComponent id="resume">
-      <MainTitle>.resume()</MainTitle>
+      <MainTitle>
+        {`.about(`}
+        <span className="text-greeny -mt-2">me</span>
+        {`)`}
+      </MainTitle>
 
       <Timeline />
 

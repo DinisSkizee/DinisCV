@@ -27,7 +27,7 @@ const Contact = () => {
           >
             cool stuff
           </span>
-          . Feel free to reach out to me at any time!
+          . Feel free to reach out to me any time!
           <br />
           dinissilvauk@gmail.com
         </span>

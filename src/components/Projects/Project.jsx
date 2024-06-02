@@ -8,7 +8,7 @@ const Project = ({ name, children, description, url }) => {
         theme === "dark"
           ? "bg-bgDarkBlue text-white"
           : "bg-inactiveBlue text-bgDarkBlue"
-      } mt-[2rem] w-full p-5 flex flex-col gap-4 md:h-fit md:w-[48%]`}
+      } mt-[2rem] w-full p-5 flex flex-col gap-4 md:w-[48%]`}
     >
       <div className="flex items-center">
         <h1 className="text-lg font-semibold w-[95%]">{name}</h1>
