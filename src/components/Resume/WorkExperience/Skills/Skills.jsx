@@ -84,9 +84,6 @@ const Skills = () => {
               C#
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
-              .NET
-            </SkillsSquare>
-            <SkillsSquare color="bgDarkBlue" work={true}>
               Python
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
@@ -97,9 +94,6 @@ const Skills = () => {
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
               GraphQL
-            </SkillsSquare>
-            <SkillsSquare color="bgDarkBlue" work={true}>
-              GraphQL Codegen
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
               MySQL
@@ -124,16 +118,52 @@ const Skills = () => {
           <h2>Cloud & DevOps</h2>
           <div className="flex-wrap flex gap-1">
             <SkillsSquare color="bgDarkBlue" work={true}>
+              Terraform
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Cloud Architecture
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
               AWS (Amazon Web Services)
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
-              API Gateway
+              VPC
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
               Lambda
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
-              CloudWatch Logs
+              Load Balancer
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Kinesis Firehose
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Transit Gateway
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              WAF
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              S3
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              SNS
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              SQS
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              DynamoDB
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              API Gateway
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              CloudWatch
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              KMS
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
               AWS CDK
@@ -211,10 +241,19 @@ const Skills = () => {
               Communication
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
+              Presentation Skills
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
               Initiative
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
               Problem Solving
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Requirement Tracking
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Stakeholder Management
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
               Fast Progression
