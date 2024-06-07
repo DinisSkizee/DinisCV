@@ -127,6 +127,12 @@ const Skills = () => {
               AWS (Amazon Web Services)
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
+              AWS Serverless
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              AWS Networking
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
               VPC
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
@@ -140,6 +146,9 @@ const Skills = () => {
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
               Transit Gateway
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Internet Gateway
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
               WAF
@@ -160,10 +169,19 @@ const Skills = () => {
               API Gateway
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
+              Eventbridge
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
               CloudWatch
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
+              X-Ray
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
               KMS
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              AWS Certificates
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
               AWS CDK
@@ -216,6 +234,9 @@ const Skills = () => {
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
               Figma
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Miro
             </SkillsSquare>
             <SkillsSquare color="bgDarkBlue" work={true}>
               Discord

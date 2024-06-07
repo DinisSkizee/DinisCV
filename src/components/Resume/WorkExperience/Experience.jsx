@@ -328,7 +328,8 @@ const Experience = () => {
           <div className="mt-2 flex flex-col gap-2">
             <p>
               Led a comprehensive audit, significantly enhancing application
-              performance by reducing load times by 84% on key pages.
+              performance by reducing load times by 84% on key pages saving over
+              £100k a year.
             </p>
             <p>
               Presented a detailed implementation strategy to the client,
@@ -372,6 +373,150 @@ const Experience = () => {
             </SkillsSquare>
             <SkillsSquare color="bgGreen" work={true}>
               Problem Solving
+            </SkillsSquare>
+          </div>
+        </li>
+
+        {/* UK Energy & Gas Client (AWS, GO) */}
+        <li className="ml-3 list-disc">
+          As a key engineer in a small team launching a project for a UK Gas &
+          Energy Client, my responsibilities included:
+          <div className="mt-2 flex flex-col gap-2">
+            <p>
+              Collaborating with stakeholders and presenting our work to build
+              relationships. Taking ownership of important workstreams and
+              breaking down processes.
+            </p>
+            <p>
+              Developing AWS infrastructure using Terraform, CDK, and Go.
+              Building back-end processes using Golang full potential.
+            </p>
+            <p>
+              Leading Sprint reviews, covering goals, challenges, and plans.
+              Building core networking components like VPC and Load Balancers,
+              and serverless/other components like api gateway, s3, dynamodb,
+              sns, sqs, eventbridge, cloudwatch...
+            </p>
+            <p>
+              Supporting the team through code reviews and troubleshooting.
+              Onboarding and integrating new team members.
+            </p>
+            Promoting a collaborative and proactive team environment. Engaging
+            with third-party system integrations.
+            <p>
+              My role combined technical implementation, stakeholder management,
+              project planning, team leadership, and fostering a productive team
+              culture.
+            </p>
+          </div>
+          <div className="mt-2 flex flex-wrap gap-1">
+            <SkillsSquare color="bgGreen" work={true}>
+              Golang
+            </SkillsSquare>
+            <SkillsSquare color="bgGreen" work={true}>
+              Terraform
+            </SkillsSquare>
+            <SkillsSquare color="bgGreen" work={true}>
+              AWS (Amazon Web Services)
+            </SkillsSquare>
+            <SkillsSquare color="bgGreen" work={true}>
+              Cloud Architecture
+            </SkillsSquare>
+            <SkillsSquare color="bgGreen" work={true}>
+              AWS Serverless
+            </SkillsSquare>
+            <SkillsSquare color="bgGreen" work={true}>
+              AWS Networking
+            </SkillsSquare>
+            <SkillsSquare color="bgGreen" work={true}>
+              VPC
+            </SkillsSquare>
+            <SkillsSquare color="bgGreen" work={true}>
+              Load Balancer
+            </SkillsSquare>
+            <SkillsSquare color="bgGreen" work={true}>
+              Kinesis Firehose
+            </SkillsSquare>
+            <SkillsSquare color="bgGreen" work={true}>
+              Transit Gateway
+            </SkillsSquare>
+            <SkillsSquare color="bgGreen" work={true}>
+              Internet Gateway
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              WAF
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              S3
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              SNS
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              SQS
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              DynamoDB
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              API Gateway
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Eventbridge
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              CloudWatch
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              X-Ray
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              KMS
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              AWS Certificates
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Github Actions
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Jira
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Miro
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Proactivity
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Leadership
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Ownership
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Collaboration
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Communication
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Presentation Skills
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Initiative
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Problem Solving
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Requirement Tracking
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Stakeholder Management
+            </SkillsSquare>
+            <SkillsSquare color="bgDarkBlue" work={true}>
+              Fast Progression
             </SkillsSquare>
           </div>
         </li>

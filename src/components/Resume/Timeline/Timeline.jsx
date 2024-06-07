@@ -330,7 +330,8 @@ const Timeline = () => {
                       </li>
                       <li className="list-disc">
                         Implemented performance enhancements, achieving an 84%
-                        reduction in loading times on the most accessed pages.
+                        reduction in loading times on the most accessed pages
+                        saving over £100k a year.
                       </li>
                       <li className="list-disc">
                         Developed and presented a strategic implementation plan
@@ -360,6 +361,12 @@ const Timeline = () => {
                       </SkillsSquare>
                       <SkillsSquare color="greeny">
                         Client Relations
+                      </SkillsSquare>
+                      <SkillsSquare color="greeny">
+                        Stakeholder Management
+                      </SkillsSquare>
+                      <SkillsSquare color="greeny">
+                        Presentation Skills
                       </SkillsSquare>
                     </div>
                   </div>
@@ -399,12 +406,49 @@ const Timeline = () => {
                     <p className="text-graywhite font-bold">
                       Nov 2023 - Dec 2023
                     </p>
-                    On a daily basis, I was responsible for the following:
+                    In this role, our small team is launching a project with a
+                    UK Gas & Energy Client. The team is built by a small group
+                    of hand-picked Engineers, where everyone is an important
+                    piece to the success of the team, solving complex business
+                    problems, we go from planning to completion on everything we
+                    do, collectively.<p>On a daily basis I:</p>
                     <ol className="pl-4">
                       <li className="list-disc">
-                        Suggested and implemented best practices to improve
-                        project efficiency and effectiveness, enhancing overall
-                        team productivity.
+                        Collaborate and communicate with stakeholders, to
+                        improve understanding on details and make confident
+                        decisions with the team.
+                      </li>
+                      <li className="list-disc">
+                        Take ownership on important parts of the team
+                        workstream.
+                      </li>
+                      <li className="list-disc">
+                        Engage with 3rd party businesses of systems we are
+                        integrating.
+                      </li>
+                      <li className="list-disc">
+                        Demo and present our work to the stakeholder,
+                        maintaining a line of progress, and building stakeholder
+                        relationship.
+                      </li>
+                      <li className="list-disc">
+                        Understand and decouple business processes into small
+                        tickets, collectively with the team.
+                      </li>
+                      <li className="list-disc">
+                        Research, Design and Build AWS infrastructure with
+                        Terraform + CDK and Go following the homologated
+                        principles required, to support the various business
+                        processes.
+                      </li>
+                      <li className="list-disc">
+                        Develop business processes back-end using Go, always
+                        taking the most out of the language.
+                      </li>
+                      <li className="list-disc">
+                        Review the team work on GitHub, making sure we are using
+                        Go full potential, and support my team on whatever they
+                        need.
                       </li>
                     </ol>
                     <div className="flex gap-2 flex-wrap text-[.6rem] w-fit font-bold mt-2">
