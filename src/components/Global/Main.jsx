@@ -27,7 +27,7 @@ export const Main = () => {
           <span
             className={`${theme === "dark" ? "text-white" : "text-bgDarkBlue"}`}
           >
-            full-stack web development
+            full-stack development & AWS
           </span>{" "}
           with a huge passion to create apps{" "}
           <span
