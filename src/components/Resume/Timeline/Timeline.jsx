@@ -300,10 +300,10 @@ const Timeline = () => {
             {({ open }) => (
               <>
                 <Popover.Button className="focus:outline-none text-left flex flex-col">
-                  <span className="w-[6rem] -ml-[1rem] md:w-[7rem] md:-ml-[1rem]">
+                  <span className="w-[6rem] -ml-[1rem] md:w-[7rem] md:-ml-[1rem] lg:ml-[.5rem]">
                     Gas & Energy
                   </span>
-                  <span className="hidden md:block md:w-[12rem] md:-ml-[3rem]">
+                  <span className="hidden md:block md:w-[12rem] md:-ml-[3rem] lg:-ml-[1.5rem]">
                     (React, Redux, RxJs)
                   </span>
                 </Popover.Button>
@@ -378,10 +378,10 @@ const Timeline = () => {
             {({ open }) => (
               <>
                 <Popover.Button className="focus:outline-none text-left flex flex-col">
-                  <span className="w-[6rem] -ml-2 md:w-[12rem] md:ml-[2rem]">
+                  <span className="w-[6rem] -ml-2 md:w-[12rem] md:ml-[2rem] lg:ml-[5rem]">
                     Gas & Energy
                   </span>
-                  <span className="hidden md:block md:w-[12rem] md:-ml-2">
+                  <span className="hidden md:block md:w-[12rem] md:-ml-2 lg:ml-[3rem]">
                     (Go, Terraform, AWS)
                   </span>
                 </Popover.Button>
