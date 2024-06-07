@@ -31,7 +31,7 @@ const Timeline = () => {
           <Popover
             className={`${
               theme === "dark" ? "text-white" : "text-bgDarkBlue"
-            } row-start-1 row-end-3 col-start-1 col-end-2 text-[.7rem] md:text-[.9rem] md:col-end-4 md:leading-5`}
+            } row-start-1 row-end-3 col-start-1 col-end-2 text-[.7rem] md:text-[.9rem] md:col-end-2 md:leading-5`}
           >
             {({ open }) => (
               <>
@@ -85,13 +85,15 @@ const Timeline = () => {
           <Popover
             className={`${
               theme === "dark" ? "text-white" : "text-bgDarkBlue"
-            } row-start-2 col-start-2 col-end-18 text-[.7rem] md:text-[.9rem] md:row-start-1 md:leading-6 md:col-start-5 md:col-end-17`}
+            } row-start-2 col-start-2 col-end-18 text-[.7rem] md:text-[.9rem] md:row-start-1 md:leading-6 md:col-start-3 md:col-end-17`}
           >
             {({ open }) => (
               <>
-                <Popover.Button className="focus:outline-none text-left flex flex-col">
-                  <span>Software Engineer</span>
-                  <span className="font-bold md:-mt-2">Accenture UK</span>
+                <Popover.Button className="focus:outline-none text-left">
+                  <span>
+                    Software Engineer -{" "}
+                    <span className="font-bold md:-mt-2">Accenture UK</span>
+                  </span>
                 </Popover.Button>
                 <Popover.Panel
                   className={`${open ? "opacity-100" : "opacity-0"} ${
@@ -156,63 +158,11 @@ const Timeline = () => {
             )}
           </Popover>
 
-          {/* Full-Stack Bootcamp */}
-          <Popover
-            className={`${
-              theme === "dark" ? "text-white" : "text-bgDarkBlue"
-            } row-start-4 col-start-3 col-end-7 text-[.7rem] md:text-[.9rem] md:leading-4 md:row-start-4 md:col-start-5 md:col-end-9 md:mt-1`}
-          >
-            {({ open }) => (
-              <>
-                <Popover.Button className="focus:outline-none text-left md:mb-1">
-                  Full-Stack Bootcamp
-                </Popover.Button>
-                <Popover.Panel
-                  className={`${open ? "opacity-100" : "opacity-0"} ${
-                    theme === "dark"
-                      ? "bg-bgBlue text-white"
-                      : "bg-bgBright text-bgDarkBlue"
-                  } absolute z-10 p-3 text-xs mt-2 mr-9 left-9 shadow-2xl md:text-md md:mr-16 md:ml-6 lg:left-[17%] lg:right-[13.3%] md:left-10 xl:right-[14.5%] xl:left-[17.3%] 2xl:left-[33.1%] 2xl:right-[17.5%]`}
-                >
-                  <div className="flex flex-col gap-1">
-                    <h1 className="font-medium text-waveBlue">
-                      Full-Stack Web Development Bootcamp
-                    </h1>
-                    <p className="text-graywhite font-bold">
-                      Dec 2022 - Mar 2023
-                    </p>
-                    <p>
-                      The 12-week bootcamp taught us key industry technologies.
-                      Gave us the opportunity to work on a different project and
-                      connect them into one piece and a final in-person
-                      presentation.
-                    </p>
-                    <div className="flex gap-2 flex-wrap text-[.6rem] w-fit font-bold mt-2">
-                      <SkillsSquare color="waveBlue">HTML</SkillsSquare>
-                      <SkillsSquare color="waveBlue">CSS</SkillsSquare>
-                      <SkillsSquare color="waveBlue">Javascript</SkillsSquare>
-                      <SkillsSquare color="waveBlue">Node.js</SkillsSquare>
-                      <SkillsSquare color="waveBlue">React</SkillsSquare>
-                      <SkillsSquare color="waveBlue">Unit Testing</SkillsSquare>
-                      <SkillsSquare color="waveBlue">MySQL</SkillsSquare>
-                      <SkillsSquare color="waveBlue">Docker</SkillsSquare>
-                      <SkillsSquare color="waveBlue">
-                        AWS (Amazon Web Services)
-                      </SkillsSquare>
-                      <SkillsSquare color="waveBlue">Postman</SkillsSquare>
-                    </div>
-                  </div>
-                </Popover.Panel>
-                <div className="border-b-waveBlue border-b-4" />
-              </>
-            )}
-          </Popover>
-
           {/* Tech4Good */}
           <Popover
             className={`${
               theme === "dark" ? "text-white" : "text-bgDarkBlue"
-            } row-start-7 col-start-7 col-end-9 text-[.7rem] md:text-[.9rem] md:row-start-7 md:col-end-10`}
+            } row-start-4 col-start-6 col-end-8 text-[.7rem] md:text-[.9rem] md:row-start-3 md:col-start-6 md:col-end-8 lg:col-start-5 lg:col-end-8`}
           >
             {({ open }) => (
               <>
@@ -260,16 +210,16 @@ const Timeline = () => {
             )}
           </Popover>
 
-          {/* Postal Client */}
+          {/* Postal Services */}
           <Popover
             className={`${
               theme === "dark" ? "text-white" : "text-bgDarkBlue"
-            } mt-4 row-start-8 col-start-9 col-end-13 text-[.7rem] md:text-[.9rem]`}
+            } mt-4 row-start-5 col-start-7 col-end-12 text-[.7rem] md:text-[.9rem] md:row-start-4 md:col-end-11`}
           >
             {({ open }) => (
               <>
                 <Popover.Button className="focus:outline-none text-left">
-                  Postal Client
+                  Postal Services
                 </Popover.Button>
                 <Popover.Panel
                   className={`${open ? "opacity-100" : "opacity-0"} ${
@@ -341,16 +291,21 @@ const Timeline = () => {
             )}
           </Popover>
 
-          {/* Gas & Energy Client */}
+          {/* Gas & Energy React Redux */}
           <Popover
             className={`${
               theme === "dark" ? "text-white" : "text-bgDarkBlue"
-            } mt-4 row-start-10 col-start-13 col-end-17 text-[.7rem] md:text-[.9rem]`}
+            } mt-4 row-start-7 col-start-12 col-end-14 text-[.7rem] md:text-[.9rem] md:row-start-6 md:col-start-11 md:col-end-13`}
           >
             {({ open }) => (
               <>
-                <Popover.Button className="focus:outline-none text-left">
-                  Gas & Energy Client
+                <Popover.Button className="focus:outline-none text-left flex flex-col">
+                  <span className="w-[6rem] -ml-[1rem] md:w-[7rem] md:-ml-[1rem]">
+                    Gas & Energy
+                  </span>
+                  <span className="hidden md:block md:w-[12rem] md:-ml-[3rem]">
+                    (React, Redux, RxJs)
+                  </span>
                 </Popover.Button>
                 <Popover.Panel
                   className={`${open ? "opacity-100" : "opacity-0"} ${
@@ -413,6 +368,64 @@ const Timeline = () => {
               </>
             )}
           </Popover>
+          {/* Gas & Energy Go & AWS */}
+          <Popover
+            className={`${
+              theme === "dark" ? "text-white" : "text-bgDarkBlue"
+            } mt-4 row-start-9 col-start-14 col-end-17 text-[.7rem] md:text-[.9rem] md:col-start-13`}
+          >
+            {({ open }) => (
+              <>
+                <Popover.Button className="focus:outline-none text-left flex flex-col">
+                  <span className="w-[6rem] -ml-2 md:w-[12rem] md:ml-[2rem]">
+                    Gas & Energy
+                  </span>
+                  <span className="hidden md:block md:w-[12rem] md:-ml-2">
+                    (Go, Terraform, AWS)
+                  </span>
+                </Popover.Button>
+                <Popover.Panel
+                  className={`${open ? "opacity-100" : "opacity-0"} ${
+                    theme === "dark"
+                      ? "bg-bgBlue text-white"
+                      : "bg-bgBright text-bgDarkBlue"
+                  } absolute z-10 p-3 text-xs mt-2 mr-9 left-9 shadow-2xl md:text-md md:mr-16 md:ml-6 lg:left-[17%] lg:right-[13.3%] md:left-10 xl:right-[14.5%] xl:left-[17.3%] 2xl:left-[52.6%] 2xl:right-[17.5%]`}
+                >
+                  <div className="flex flex-col gap-1">
+                    <h1 className="font-medium text-greeny">
+                      Accenture UK Gas & Energy Client
+                    </h1>
+                    <p className="text-graywhite font-bold">
+                      Nov 2023 - Dec 2023
+                    </p>
+                    On a daily basis, I was responsible for the following:
+                    <ol className="pl-4">
+                      <li className="list-disc">
+                        Suggested and implemented best practices to improve
+                        project efficiency and effectiveness, enhancing overall
+                        team productivity.
+                      </li>
+                    </ol>
+                    <div className="flex gap-2 flex-wrap text-[.6rem] w-fit font-bold mt-2">
+                      <SkillsSquare color="greeny">Typescript</SkillsSquare>
+                      <SkillsSquare color="greeny">Node.js</SkillsSquare>
+                      <SkillsSquare color="greeny">React</SkillsSquare>
+                      <SkillsSquare color="greeny">Redux</SkillsSquare>
+                      <SkillsSquare color="greeny">RxJs</SkillsSquare>
+                      <SkillsSquare color="greeny">Scss</SkillsSquare>
+                      <SkillsSquare color="greeny">
+                        Performance Optimization
+                      </SkillsSquare>
+                      <SkillsSquare color="greeny">
+                        Client Relations
+                      </SkillsSquare>
+                    </div>
+                  </div>
+                </Popover.Panel>
+                <div className="border-b-greeny border-b-4" />
+              </>
+            )}
+          </Popover>
 
           {/* DateLine */}
           <div
@@ -427,11 +440,11 @@ const Timeline = () => {
           <TimelineDate className="col-start-1">2021</TimelineDate>
           <TimelineDate className="col-start-3">2022 Dec</TimelineDate>
           <TimelineDate className="col-start-5">Jan</TimelineDate>
-          <TimelineDate className="col-start-7">Mar</TimelineDate>
+          <TimelineDate className="col-start-7">May</TimelineDate>
           <TimelineDate className="col-start-9">May</TimelineDate>
-          <TimelineDate className="col-start-11">Aug</TimelineDate>
-          <TimelineDate className="col-start-13">Nov</TimelineDate>
-          <TimelineDate className="col-start-15">Dec</TimelineDate>
+          <TimelineDate className="col-start-11">Nov</TimelineDate>
+          <TimelineDate className="col-start-13">2024</TimelineDate>
+          <TimelineDate className="col-start-15">July</TimelineDate>
         </div>
       </div>
     </>
